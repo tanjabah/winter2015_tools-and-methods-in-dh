@@ -1,0 +1,165 @@
+body {
+	background-color: black;
+	color: white;
+	
+	
+}
+#AdvancedSearch h3{
+	padding: 5px 5px 5px 10px;
+	
+}
+.vorschauimg{
+	
+	width: 25%;
+	float:left;
+	
+}
+
+.vorschauimg:hover {
+	
+	cursor: pointer;
+}
+
+#item-active {
+	position: absolute;
+	left: 50px;
+}
+#projekttitel {
+	position: absolute;
+	width:100%;
+	height:60%;
+	background: rgba(0, 0, 0, 0.8);
+	top: 20%;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Oldenburg', cursive;
+}
+			@media screen and (max-width: 920px) {
+				
+				#projekttitel h1 {
+					
+					font-size: 0.98em;
+				}
+				
+				#projekttitel h2 {
+					
+					font-size: 0.9em;
+				}
+			}
+			@media screen and (max-width: 700px) {
+				
+				#projekttitel h1 {
+					
+					font-size: 0.9em;
+				}
+				
+				#projekttitel h2 {
+					
+					font-size: 0.7em;
+				}
+			}
+			@media screen and (max-width: 200px) {
+				
+				#projekttitel h1 {
+					
+					font-size: 0.8em;
+				}
+				
+				#projekttitel h2 {
+					
+					font-size: 0.6em;
+				}
+			}
+
+#infocontent {
+	
+	position: absolute;
+	width: 90%;
+	height: 500px;
+	left: 5%;
+	padding-top: 30px;
+	text-align: justify;
+	font-family: 'Oldenburg', cursive;
+}
+	.article {
+	
+	 margin-top:5px;
+}
+
+footer{
+	text-align: center;
+
+}
+
+.modal-dialog{
+	
+	color:black;
+	
+}
+
+.modal-content{
+	
+	height:auto;
+	
+}
+.modalpic{
+	position: relative;
+	width:100%;
+	
+	right:0px;
+	
+}
+
+#suchbild {
+
+	width: 100%;
+	padding-bottom:5px;
+}
+#suchdetails{
+	list-style-type: none;
+	font-size: 0.5em;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+#suchdetails li {
+	
+	padding-top: 5px;
+}
+#ergebnisoption{
+	
+	padding: 5px;
+}
+
+#content{
+	
+	width:90%;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+#d_content{
+	background-color: rgba(30, 30, 30, 1);
+	margin-left:10px;
+	margin-right:10px;
+		
+}
+.detailitem {
+	margin-top: 15px;
+
+
+
+	
+}
+.kategorie {
+
+background-color: rgba(60, 60, 60, 1);
+}
+.opt{
+width: 600px;
+margin:20px;
+}
+
+.btn{
+padding:5px;
+}

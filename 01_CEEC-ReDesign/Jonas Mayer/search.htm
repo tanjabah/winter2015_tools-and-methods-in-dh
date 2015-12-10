@@ -1,0 +1,478 @@
+<! Doctype html>
+
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="ToDo">
+	<meta name="description" content="ToDo">
+	<meta name="keywords" content="ToDo">
+	
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Oldenburg&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	
+	
+    <title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
+	<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+	<script src="js/easing.js" type="text/javascript"></script>
+	<script src="js/scrolling-nav.js" type="text/javascript"></script>
+	<link rel="stylesheet" media="screen,projection" href="css/scrolling-nav.css" />
+	
+	<script type="text/javascript" src="js/app.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- ToDo: Navigationsleiste -->
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">CEEC</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Index.htm"> Home <span class="sr-only">(current)</span></a></li>
+        <li><a class="btn" href="#about"><b>Sortiern nach:</b></a></li>
+		<li><a class="btn" href="#digital">Alter</a></li>
+		<li><a class="btn" href="#digital">Autor</a></li>
+		<li><a class="btn" href="#digital">Werkitel</a></li>
+		<li><a class="btn" href="#digital">Bibliotheken</a></li>
+		<li><a class="btn" href="#digital">Handschriftenart</a></li>
+		
+        <li class="dropdown">
+        <li class="dropdown">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suche Nach:<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Autor</a></li>
+            <li><a href="#">Titel</a></li>
+            <li><a href="#">Physikalische Eigenschaften</a></li>
+            <li><a href="#">Wort</a></li>
+            
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Neue Suche">
+        </div>
+        <button type="submit" class="btn btn-default">Suchen</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sprache <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">DE</a></li>
+            <li><a href="#">EN</a></li>
+            <li><a href="#">FR</a></li>
+            <li><a href="#">ES</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="content">
+		
+	<h1> Ihre Suchergebnisse:<h1>
+
+		<hr>
+
+		<div class="media">
+			<div class="container-fluid" >
+			<div class="row">
+				<div class="col-sm-2" id="ergebnis"> 
+				<div class="media-left">
+					
+					<a href="search_detail01.htm">
+					  <img class="media-object" src="img/small/01.jpg" alt="krasser kodex" id="suchbild">
+					</a>
+				</div>
+				</div>
+				
+				<div class="col-sm-10" id="ergebnis">
+				<div class="media-body" id="suchitem">
+					<h3 class="media-heading">Antiphonarium officii (pars aestivalis), um 1538</h3>
+					<ul id= "Suchdetails">
+						<li><b>Titel:</b> Antiphonarium officii (pars aestivalis)</li>
+						<li><b>Entstehungszeit:</b> Ende 15. Jh.</li>
+						<li><b>Beschreibstoff - Zusatz:</b> Pergament</li>
+						<li><b>Spätere Ergänzungen:</b> Nachträge des 17./18. Jh.s nachträglich eingeheftet.</li>
+						<li><b>Incipit:</b> Loquere domine...</li>
+						<li><b>Explicit:</b> ...de ap(osto)lis</li>
+					</ul>	
+					<div class="ergebnisoption">
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#01">Vorschau</button>
+						<a href="search_detail01.htm" class="btn btn-primary" role="button">Details</a>
+						<a href="img/big/01.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+
+				</div>
+				</div>
+			
+			</div>
+			</div>
+		</div>
+		<hr>
+
+		<div class="media">
+			<div class="container-fluid" >
+			<div class="row">
+				<div class="col-sm-2" id="ergebnis"> 
+				<div class="media-left">
+					
+					<a href="search_detail01.htm">
+					  <img class="media-object" src="img/small/01.jpg" alt="krasser kodex" id="suchbild">
+					</a>
+				</div>
+				</div>
+				
+				<div class="col-sm-10" id="ergebnis">
+				<div class="media-body" id="suchitem">
+					<h3 class="media-heading">Antiphonarium officii (pars aestivalis), um 1538</h3>
+					<ul id= "Suchdetails">
+						<li><b>Titel:</b> Antiphonarium officii (pars aestivalis)</li>
+						<li><b>Entstehungszeit:</b> Ende 15. Jh.</li>
+						<li><b>Beschreibstoff - Zusatz:</b> Pergament</li>
+						<li><b>Spätere Ergänzungen:</b> Nachträge des 17./18. Jh.s nachträglich eingeheftet.</li>
+						<li><b>Incipit:</b> Loquere domine...</li>
+						<li><b>Explicit:</b> ...de ap(osto)lis</li>
+					</ul>	
+					<div class="ergebnisoption">
+						<button  type="button" class="btn btn-default">Vorschau</button>
+						<a href="search_detail01.htm" class="btn btn-primary" role="button">Details</a>
+						<a href="img/big/01.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+					</div>
+				</div>
+				</div>
+			
+			</div>
+			</div>
+		</div>
+		<hr>
+				<div class="media">
+			<div class="container-fluid" >
+			<div class="row">
+				<div class="col-sm-2" id="ergebnis"> 
+				<div class="media-left">
+					
+					<a href="search_detail01.htm">
+					  <img class="media-object" src="img/small/01.jpg" alt="krasser kodex" id="suchbild">
+					</a>
+				</div>
+				</div>
+				
+				<div class="col-sm-10" id="ergebnis">
+				<div class="media-body" id="suchitem">
+					<h3 class="media-heading">Antiphonarium officii (pars aestivalis), um 1538</h3>
+					<ul id= "Suchdetails">
+						<li><b>Titel:</b> Antiphonarium officii (pars aestivalis)</li>
+						<li><b>Entstehungszeit:</b> Ende 15. Jh.</li>
+						<li><b>Beschreibstoff - Zusatz:</b> Pergament</li>
+						<li><b>Spätere Ergänzungen:</b> Nachträge des 17./18. Jh.s nachträglich eingeheftet.</li>
+						<li><b>Incipit:</b> Loquere domine...</li>
+						<li><b>Explicit:</b> ...de ap(osto)lis</li>
+					</ul>	
+					<div class="ergebnisoption">
+						<button type="button" class="btn btn-default">Vorschau</button>
+						<button type="button" class="btn btn-primary">Details</button>
+						<button type="button" class="btn btn-success">Herunterladen</button>
+					</div>
+				</div>
+				</div>
+			
+			</div>
+			</div>
+		</div>
+		<hr>
+				<div class="media">
+			<div class="container-fluid" >
+			<div class="row">
+				<div class="col-sm-2" id="ergebnis"> 
+				<div class="media-left">
+					
+					<a href="search_detail01.htm">
+					  <img class="media-object" src="img/small/01.jpg" alt="krasser kodex" id="suchbild">
+					</a>
+				</div>
+				</div>
+				
+				<div class="col-sm-10" id="ergebnis">
+				<div class="media-body" id="suchitem">
+					<h3 class="media-heading">Antiphonarium officii (pars aestivalis), um 1538</h3>
+					<ul id= "Suchdetails">
+						<li><b>Titel:</b> Antiphonarium officii (pars aestivalis)</li>
+						<li><b>Entstehungszeit:</b> Ende 15. Jh.</li>
+						<li><b>Beschreibstoff - Zusatz:</b> Pergament</li>
+						<li><b>Spätere Ergänzungen:</b> Nachträge des 17./18. Jh.s nachträglich eingeheftet.</li>
+						<li><b>Incipit:</b> Loquere domine...</li>
+						<li><b>Explicit:</b> ...de ap(osto)lis</li>
+					</ul>	
+					<div class="ergebnisoption">
+						<button type="button" class="btn btn-default">Vorschau</button>
+						<button type="button" class="btn btn-primary">Details</button>
+						<button type="button" class="btn btn-success">Herunterladen</button>
+					</div>
+				</div>
+				</div>
+			
+			</div>
+			</div>
+		</div>
+		<hr>
+</div>
+<footer>
+
+Copyright: Jonas Mayer, 2015
+</Footer>
+
+
+</body>
+
+<!-- Modals zum klicken für das Carousel-->
+
+			<div class="modal fade" id="01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), um 1538</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/01.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					 <button type="button" class="btn btn-primary">Herunterladen</button>
+					 <button type="button" class="btn btn-primary">Details</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			<div class="modal fade" id="02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), 1. Hälfte 16. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/02.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Bruderschaftsbuch Unser Lieben Frau, ab 1429</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/03.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Collectio canonum Sanblasiana, 1. Hälfte 8. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/04.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Friedrich-Lektionar, Cod. 59, um 1130</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/05.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Graduale et Antiphonarium officii, 1353-1358</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/06.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Hagiographische Sammelhandschrift, 12. u. 14. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/07.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Kirchenrechtliche Sammelhandschrift, Cod. 117, 2. Hälfte 9. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/08.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Liber precum, 15. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/09.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Liturgische Sammelhandschrift, Cod. 87, 12. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/10.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Medizinisch-pharmazeutische Sammelhandschrift, 1403</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/11.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">MESS-ANTIPHONAR (Graduale) der Johanniterkommende Burgsteinfurt. 1. Hälfte 16. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/12.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<button type="button" class="btn btn-primary">Herunterladen</button>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 
+
+</html>

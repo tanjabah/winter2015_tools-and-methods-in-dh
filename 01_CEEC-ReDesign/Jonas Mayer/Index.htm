@@ -1,0 +1,467 @@
+<! Doctype html>
+
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="ToDo">
+		<meta name="description" content="ToDo">
+		<meta name="keywords" content="ToDo">
+		
+		<!-- Font -->
+		<link href='https://fonts.googleapis.com/css?family=Oldenburg&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		
+		<title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
+		<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+		<script src="js/easing.js" type="text/javascript"></script>
+		<script src="js/scrolling-nav.js" type="text/javascript"></script>
+		<link rel="stylesheet" media="screen,projection" href="css/scrolling-nav.css" />
+		
+		<script type="text/javascript" src="js/app.js"></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+		<!-- ToDo: Navigationsleiste -->
+		<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="Index.htm">CEEC</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  <ul class="nav navbar-nav">
+			<li><a class="btn  page-scroll" href="#about">Über uns</a></li>
+			<li><a class="btn  page-scroll" href="#digital">Digitalisierung</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suche Nach:<span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+							<li><a href="#">Autor</a></li>
+				<li><a href="#">Titel</a></li>
+				<li><a href="#">Physikalische Eigenschaften</a></li>
+				<li><a href="#">Wort</a></li>
+				
+			  </ul>
+			</li>
+		  </ul>
+		  <form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+			  <input type="text" class="form-control" placeholder="Search">
+			</div>
+			<a href="search.htm" class="btn btn-default" role="button">Suche</a>
+		  </form>
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a class="btn  page-scroll" href="#contact">Kontakt</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sprache <span class="caret"></span></a>
+			  <ul class="dropdown-menu">
+				<li><a href="#">DE</a></li>
+				<li><a href="#">EN</a></li>
+				<li><a href="#">FR</a></li>
+				<li><a href="#">ES</a></li>
+			  </ul>
+			</li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+			  <ol class="carousel-indicators">
+				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			  </ol>
+
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner" role="listbox">
+					<div class="item active">
+						
+					  <img src="img/small/01.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#01">
+					  <img src="img/small/02.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#02">
+					  <img src="img/small/03.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#03">
+					  <img src="img/small/04.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#04">
+					</div>
+					
+					<div class="item">
+					  <img src="img/small/05.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#05">
+					  <img src="img/small/06.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#06">
+					  <img src="img/small/07.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#07">
+					  <img src="img/small/08.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#08">
+					</div>
+					
+					<div class="item">
+					  <img src="img/small/09.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#09">
+					  <img src="img/small/10.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#10">
+					  <img src="img/small/11.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#11">
+					  <img src="img/small/12.jpg" alt="..." class="vorschauimg" data-toggle="modal" data-target="#12">
+					</div>
+					
+					<div id="projekttitel">
+				<h1>CEEC - Codices Electronici Ecclesiae Coloniensis</h1>
+				<h2>Erzbischöflichen Diözesan- und Dombibliothek Köln (DDB)<h2>
+				</div>
+			   </div>
+			   
+				
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="icon-prev" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="icon-next" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			  </a>
+			</div>
+	
+	
+	<div id="infocontent">
+		<hr id="about">
+		<div class="article">
+		
+			<h2>Über das Projekt</h2>
+			<p>Das Projekt CEEC wird von der DFG im Programm "Retrospektive Digitalisierung von Bibliotheksbeständen" gefördert. Dieses Programm gehört zu dem Förderbereich "Verteilte Digitale Forschungsbibliothek".
+			Im Rahmen des Projektes CEEC werden die mittelalterlichen Kodizes der Erzbischöflichen Diözesan- und Dombibliothek Köln (DDB) digitalisiert. Die DDB ist damit weltweit die erste Bibliothek, die ihre mittelalterlichen Handschriftenbestände komplett digitalisieren lässt und als "Digitale Bibliothek" der Öffentlichkeit zugänglich macht.</p>
+			<h3>Der Projekttitel</h3>
+			<p>Natürlich, ein historisches Forschungsprojekt braucht einen lateinischen Namen. Frei ins Deutsche übersetzt bedeutet der Titel "Die elektronischen Kodizes der Kölner Kirche". Dieser Titel provoziert eine Reihe von Fragen: Was ist eigentlich ein Kodex? Und was dagegen "elektronische Kodices"? Und was ist mit "Kölner Kirche" gemeint?</p>
+			
+			<p>Als Kodex bezeichnen die Historiker ein Buch, welches aus zusammengenähten Lagen Blättern besteht. Ein Kodex besteht in Fall der DDB in der Regel aus Pergament. (Pergament wiederum wird aus Tierhaut hergestellt. Fell und Fleisch wurden abgeschabt.) Die Bezeichnung Kodex dient zur Unterscheidung der Form von z.B. einer Rolle. Kodizes, in einer weiteren Unterscheidung, sind mit der Hand geschrieben, im Gegensatz zum gedruckten Buch.</p>
+
+			<p>Ein "elektronischer Kodex" ist nun die digitalisierte Form, ein Abbild des "realen" Kodex. Die Kodizes der DDB werden im Rahmen des Projektes digitalisiert und in verschiedenen Auflösungen im Internet zur Verfügung gestellt. Zwischen den digitalisierten Seiten kann man blättern wie in einem "realen" Buch und so handelt es sich also um "Codices Electronici", um "elektronische Kodizes". Ein Feature des Projektes soll es z.B. sein, dass der Benutzer den Originalzustand einer Handschrift auf Mausklick rekonstruieren können soll. Wenn eine Handschrift irgendwann einmal auseinandergenommen und falsch wieder zusammengesetzt worden ist, dann soll der Benutzer dies rückgängig machen können.</p>
+
+			<p>Mit den Codizes der Kölner Kirche sind hier die Bestände einer speziellen Bibliothek gemeint, die Erzbischöfliche Diözesan- und Dombibliothek (DDB). Wie der Name schon sagt, handelt es sich hierbei eigentlich um zwei Bibliotheken, um die Diözesanbibliothek und die Dombibliothek. Die Dombibliothek ist die ältere der beiden Bibliotheken. Diese Institution existiert mindestens seit dem Ende des 8. Jahrhunderts, seitdem Karl der Große Köln zu einem Erzbistum gemacht hatte. Der erste Kölner Erzbischof Hildebald ist besonders wichtig für diese Institution, da er einige der heutigen Bücher der Bibliothek in Auftrag gegeben hat. Die große Besonderheit dieser Sammlung besteht darin, dass wir heute einen großen Teil der Bücher besitzen, welche die Bibliothek schon im Mittelalter, ja sogar schon im 9.Jahrhundert besessen hat. Andere Bibliotheken sind häufig zerstört oder auseinandergerissen worden, verloren gegangen durch die Jahrhunderte. Hier in Köln haben wir allerdings ein einmaliges Zeugnis für die Bildungsgeschichte früherer Zeiten. Das älteste Buch der Dombibliothek stammt aus dem Jahre 590/604. (Zur weiteren Bibliotheksgeschichte vgl. die Abteilung Historische Bibliothek.) Um eine Sammlung von Bibliotheken bzw. um eine jüngere Bibliothek handelt es sich bei der Diözesanbibliothek. Aus der gesamten Diözese Köln gibt es Bücher in der Sammlung, z.B. Bücher, welche in St. Gereon geschrieben wurden oder in St. Ursula etc.</p>
+			
+			<h3>Sekundärliteratur und Kontextbildung</h3>
+			<p>Die Handschriften der Kölner Erzbischöflichen Diözesan- und Dombibliothek stehen in einer breiten Literaturtradition, in der die Handschriften und die Bibliothek selbst aus den verschiedensten Blickwinkeln heraus beschrieben und untersucht worden sind und werden. Wir bemühen uns, diese Literatur, ohne die die Handschriften kaum zu verstehen wären, so weit wie möglich hier ebenfalls digital verfügbar zu machen.5 Die Grenzen, die uns dabei durch Urheberrechtsbestimmungen gesetzt sind, werden von uns nach bestem Wissen und Gewissen beachtet. Sollten wir unwissentlich und ungewollt gegen rechtliche Bestimmungen verstoßen, so bitten wir um Mitteilung, um die betreffenden Dokumente aus unserem Angebot entfernen zu können.</p>
+
+			<p>Wir bemühen uns außerdem, zu einzelnen Themenbereichen möglichst aktuelle und umfassende Literaturangaben zu machen. Diese sollten für die ernsthafte Beschäftigung mit dem Handschriftenbestand oder einzelnen Handschriften eher als maßgeblich betrachtet werden, als die tatsächlich hier digital angebotenen Texte und Sekundärdokumente. Diese können aus den oben angesprochenen rechtlichen Gründen immer nur einen veralteteten Forschungsstand wiedergeben, was unbedingt berücksichtigt werden sollte!</p>
+
+			<p>Angesichts des aktuellen Standes der Technik und der Wiedergabemöglichkeiten von gedruckten Werken in digitalen Formen, stellen wir Dokumente mit einem hohen Anteil an speziellen Drucktypen (z.B. zur Wiedergabe von Abkürzungen in Handschriften) und solche, die in Frakturschriften gesetzt sind, nicht als elektronische Texte, sondern nur als Abbildungen der Druckausgabe zur Verfügung. Elektronische Abschriften solcher Texte nehmen wir aber immer gerne entgegen! Sie würden die Benutzbarkeit der digitalen Handschriftenbibliothek in jedem Falle erhöhen.</p>
+
+		
+		</div>
+		<hr id="digital">
+		<div class="article">
+				<h2>Digitalisierung</h2>
+				<p>Da die zu digitalisierenden Handschriften überaus empfindlich sind, insbesondere gegenüber UV-Licht und Wärme bzw. Luftfeuchtigkeit, werden die Digitalisierungsarbeiten mit besonderem Ausstattung durchgeführt. Die Lampen sind extrem kalt, d.h. die Erwärmung ist minimal. Außerdem ist das Licht der Lampen fast UV-frei. Ein Schaden für die Handschriften von dieser Seite sollte damit ausgeschlossen sein.</p>
+
+				<p>Die Digitalisierung erfolgt mit einer Auflösung von 4491*3480 Punkten. Je nach Format der Handschrift beträgt die Auflösung der Bilder zwischen 200 und 600 dpi. Die Dateien sind unkomprimiert jeweils 45 MB groß.</p>
+
+				<p>Im Projekt werden in den ersten beiden Jahren insgesamt 65000 Seiten digitalisiert. Diese "Massenproduktion" erfordert bestimmte Grundregeln bei der Bearbeitung. Die wichtigste Regel ist die gleichbleibende Qualität der Aufnahmen. Gleichbleibend bedeutet sowohl den Ausschnitt, der zu sehen ist, als auch die Farbgebung und die Schärfe. Ein Kodex wird möglichst mit einer Einstellung der Blende und des Lichtes aufgenommen, Veränderungen dieser "Grundeinstellungen" pro Kodex sollen möglichst nicht vorgenommen werden. So sollten auf den Bildern die Farb- und Helligkeitsunterschiede des Beschreibstoffes selbst zu erkennen sein. So unterscheiden sich z.B. die Haar- und Fleisch-Seite des Pergaments: die Haar-Seite, also die "Außenseite" des Felles ist dunkler gefärbt als die Fleisch-Seite.</p>
+
+				<p>Bei der Digitalisierung soll die komplette Seite zu sehen sein, d.h. anders als bei vielen Fotographien wird der Rand mit abgebildet.</p>
+				
+				<h3>Reinfolde der Digitalisierung</h3>
+				
+				<p>Die Auswahl der Handschriften geschah in der ersten Projektphase vor allem unter dem Gesichtspunkt, einen Querschnitt in Hinsicht auf Alter, Inhalt, Schriftentwicklung etc. durch den Bestand der DDB zu erstellen. Die Auswahlkriterien der zu digitalisierenden Handschriften für die erste Projektphase waren im Einzelnen die folgenden:</P>
+				<ul>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Erhaltungszustand</span>: zuerst die vom Erhaltungszustand "unproblematischen" Handschriften, ggf. beschädigte Handschriften zur Demonstration und zur Entwicklung spezieller Bearbeitungswerkzeuge;</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Bibliotheksorganisation</span>: Rücksichtnahme auf Ausleihe, Entbindungen etc.;</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Thematischer Warenkorb</span>: beispielhafte Auswahl aus allen Inhaltsbereichen;</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Fachwissenschaftliches Interesse</span>: Vorrang für Handschriften, bei denen aufgrund fachwissenschaftlichen Interesses eine kooperative Erschließung zu erwarten ist (Beispiele: theologisch, kodikologisch, paläographisch, historisch, kunsthistorisch, philologisch);</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Alter</span> Ältere Handschriften vor jüngerern Handschriften;</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Herkunft</span>: Stadtkölnische Provenienz, spezielle Schreibschulen und besonders seltene Herkunft vorrangig</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Bibliothekszugehörigkeit</span>: Dombibliothek vor Diözesanbibliothek</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Illuminationen / Illustrationen</span>: Illuminierte Handschriften vor nicht-illuminierten Handschriften; zunächst nur beispielhaft, anspruchsvollere Kodizes werden am Ende der ersten Projektphase (mit besseren Erfahrungswerten) digitalisiert</p></li>
+				<li><p style="font-size:11pt"><span style="font-weight:bold">Format</span>: anfangs "normal"-formatige Handschriften;</p></li>
+				</ul>	
+		<hr>
+		</div>
+		
+		<hr id="contact">
+		<div class="article">
+		<h2>Kontakt</h2>
+		
+		<ul>
+		  <li><p><span style="font-weight:bold">Wissenschaftlicher Mitarbeiter: Patrick Sahle M.A.</span><br>
+
+			Universität zu Köln / Historisch-Kulturwissenschaftliche Informationsverarbeitung<br>
+
+			E-Mail: <a href="mailto:sahle@uni-koeln.de">sahle@uni-koeln.de</a><br></p>
+
+		  </li>
+
+		  <li><p><span style="font-weight:bold">Studentische Hilfskraft: Martin Iordanidis</span><br>
+
+		  E-Mail: <a href="mailto:martin.iordanidis@Smail.Uni-Koeln.de">martin.iordanidis@smail.uni-koeln.de</a>
+
+		  </p></li>
+
+		  <li><p><span style="font-weight:bold">Studentische Hilfskraft: Benjamin Burkhard</span><br>
+
+		  E-Mail: <a href="mailto:benburkard@gmx.de">benburkard@gmx.de</a>
+
+		  </p></li>
+
+		  <li><p><span style="font-weight:bold">Digitalisierung: Rainer Schenk</span><br>
+
+		  E-Mail: <a href="mailto:Hacko.Hack@gmx.de">Hacko.Hack@gmx.de</a></p>
+
+	  </li>
+	</ul>
+
+		
+	</div>
+<hr>
+<footer>
+
+Copyright: Jonas Mayer, 2015
+</Footer>
+
+
+</body>
+
+<!-- Modals zum klicken für das Carousel-->
+
+			<div class="modal fade" id="01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), um 1538</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/01.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/01.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			<div class="modal fade" id="02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), 1. Hälfte 16. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/02.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/02.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Bruderschaftsbuch Unser Lieben Frau, ab 1429</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/03.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/03.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Collectio canonum Sanblasiana, 1. Hälfte 8. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/04.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/04.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Friedrich-Lektionar, Cod. 59, um 1130</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/05.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/05.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Graduale et Antiphonarium officii, 1353-1358</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/06.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/06.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Hagiographische Sammelhandschrift, 12. u. 14. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/07.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/07.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Kirchenrechtliche Sammelhandschrift, Cod. 117, 2. Hälfte 9. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/08.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/08.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Liber precum, 15. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/09.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/09.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Liturgische Sammelhandschrift, Cod. 87, 12. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/10.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/10.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">Medizinisch-pharmazeutische Sammelhandschrift, 1403</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/11.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/11.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 <div class="modal fade" id="12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="myModalLabel">MESS-ANTIPHONAR (Graduale) der Johanniterkommende Burgsteinfurt. 1. Hälfte 16. Jh.</h4>
+				  </div>
+				  <div class="modal-body ">
+					<img src="img/big/12.jpg" class="modalpic">
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+					<a href="img/big/12.jpg" class="btn btn-success"  role="button" download>Herunterladen</a>
+				  </div>
+				</div>
+			  </div>
+			</div>
+
+			 
+
+</html>
