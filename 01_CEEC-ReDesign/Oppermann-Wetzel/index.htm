@@ -1,0 +1,334 @@
+<!DOCTYPE HTML>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Cedric Wetzel, Sophia Oppermann">
+    <meta name="description" content="Die vollständige Abbildung der berühmten Froschkoenig Handschrift">
+    <meta name="keywords" content="Peter Pan, Handschrift, Scan">
+
+    <title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+
+    <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+    <link href="res/css/bootstrap.css" rel="stylesheet">
+    <link href="res/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<!-- ToDo: Navigationsleiste -->
+<div class="navigation">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.htm">CEEC</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Kategorien</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav pull-right">
+                    <li><a href="#" class="">Login</a></li>
+                </ul>
+            </div>
+
+
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+
+    </nav>
+</div>
+
+
+<div class="search-main">
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <form class="form-horizontal">
+                    <fieldset>
+                        <!-- Text input-->
+                        <div class="form-group">
+
+                            <div class="col-md-12">
+                                <input id="textinput" name="textinput" placeholder="Suche" class="form-control input-md"
+                                       type="text">
+                                <span class="help-block btn-erweitert">Erweitert</span>
+                            </div>
+                        </div>
+
+                        <!-- Select Basic -->
+                        <div class="form-group erweitert-group">
+                            <label class="col-md-4 control-label" for="search-in">Suche In</label>
+
+                            <div class="col-md-4">
+                                <select id="search-in" name="search-in" class="form-control">
+                                    <option value="1">Textabschnitte</option>
+                                    <option value="2">Incipit als ganze Zeile</option>
+                                    <option value="3">Buchschmuck</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Select Multiple -->
+                        <div class="form-group erweitert-group">
+                            <label class="col-md-4 control-label" for="begriffe">Begriffe</label>
+
+                            <div class="col-md-4">
+                                <select id="begriffe" name="begriffe" class="form-control" multiple="multiple">
+
+                                    <option selected="">passionsberichtes</option>
+                                    <option>pastellartig</option>
+                                    <option>pastor</option>
+                                    <option>pastor/praedicat</option>
+                                    <option>pat</option>
+                                    <option>patene</option>
+                                    <option>pater</option>
+                                    <option>patiens</option>
+                                    <option>patienter</option>
+                                    <option>patrem</option>
+                                    <option>patris</option>
+                                    <option>patron</option>
+                                    <option>patronos</option>
+                                    <option>pattern</option>
+                                    <option>pauca</option>
+                                    <option>paul</option>
+                                    <option>paule</option>
+                                    <option>pauli</option>
+                                    <option>paulinus</option>
+                                    <option>paulum/bithiniaque</option>
+                                    <option>paulus</option>
+                                    <option>paulus-initale</option>
+                                    <option>paulus;</option>
+                                    <option>paulusbriefe</option>
+                                    <option>paulusbriefen</option>
+                                    <option>paulusphysiognomie</option>
+                                    <option>pauperes</option>
+                                    <option>pav/li</option>
+                                    <option>pavlvm</option>
+                                    <option>pavlvs</option>
+                                    <option>pavlvs/</option>
+                                    <option>pax</option>
+                                    <option>paßt</option>
+                                    <option>paßten</option>
+                                    <option>pecked</option>
+                                    <option>pecuniam</option>
+                                    <option>pegasus;</option>
+                                    <option>pelagius</option>
+                                    <option>pelikan</option>
+                                    <option>pen</option>
+                                    <option>pen-decorated</option>
+                                    <option>pen-decoration</option>
+                                    <option>pen-decoration;</option>
+                                    <option>pen-drawn</option>
+                                    <option>pen-flourished</option>
+                                    <option>pen-flourishing</option>
+                                    <option>pentateuco</option>
+                                    <option>pentecos/tes</option>
+                                    <option>pentecostes</option>
+                                    <option>pentiment</option>
+                                    <option>per</option>
+                                    <option>per/plurima</option>
+                                    <option>peraldus</option>
+                                    <option>peregrinos</option>
+                                    <option>perfecta</option>
+                                    <option>perfectum</option>
+                                    <option>perficiatis</option>
+                                    <option>perfidem</option>
+                                    <option>pergament-ausgesparter</option>
+                                    <option>pergamentausgespart</option>
+                                    <option>pergamentausgespart;</option>
+                                    <option>pergamentausgesparten</option>
+                                    <option>pergamentblätter</option>
+                                    <option>pergamentgrund</option>
+                                    <option>pergamentsichtig</option>
+                                    <option>pergamentsichtige</option>
+                                    <option>pergamentsichtigen</option>
+                                    <option>perhaps</option>
+                                    <option>perhenne</option>
+                                    <option>pericope</option>
+                                    <option>pericopes</option>
+                                    <option>perikopen</option>
+                                    <option>perikopenanfängen</option>
+                                    <option>perikopenbuch</option>
+                                    <option>perikopenbuches</option>
+                                    <option>perlen</option>
+                                    <option>perlen;</option>
+                                    <option>perlenbesetzte</option>
+                                    <option>perlenschnur</option>
+                                    <option>perlstäbe;</option>
+                                    <option>perpes</option>
+                                    <option>perpetuo</option>
+                                    <option>perpetuum</option>
+                                    <option>persarum</option>
+                                    <option>perseus</option>
+                                    <option>person</option>
+                                    <option>personen</option>
+                                    <option>personengruppe</option>
+                                    <option>personengruppen</option>
+                                    <option>personifikationen</option>
+                                    <option>perspektivische</option>
+                                    <option>pertinens</option>
+                                    <option>pervenit</option>
+                                    <option>perversae</option>
+                                    <option>perversorum</option>
+                                    <option>peter</option>
+                                    <option>petit</option>
+                                    <option>petr</option>
+                                    <option>petri</option>
+                                    <option>petro</option>
+                                    <option>petrus</option>
+
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Button -->
+                        <div class="form-group">
+                            <div class="col-md-6">
+                                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Suchen</button>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row last-entries">
+        <div class="col-md-8 col-md-offset-2">
+            <h2>Letzte Scanns</h2>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/01.jpg);" data-id="1">
+                    <div class="article-info">
+                        <h2 class="title">Peter pan</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/02.jpg);" data-id="2">
+                    <div class="article-info">
+                        <h2 class="title">Peter Pan</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/04.jpg);" data-id="3">
+                    <div class="article-info">
+                        <h2 class="title">Schneewitchen</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/04.jpg);" data-id="4">
+                    <div class="article-info">
+                        <h2 class="title">Rübenzahl</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/05.jpg);" data-id="5">
+                    <div class="article-info">
+                        <h2 class="title">Der goldene Topf</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/06.jpg);" data-id="6">
+                    <div class="article-info">
+                        <h2 class="title">Der Rubin</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/07.jpg);" data-id="7">
+                    <div class="article-info">
+                        <h2 class="title">Katzenfell</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-md-3">
+                <article style="background-image:url(res/img/small/08.jpg);" data-id="8">
+                    <div class="article-info">
+                        <h2 class="title">Les Fées</h2>
+                        <span class="detail-title">Date:</span> 01.10.1948<br>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 line">
+                <h2>Über das Projekt</h2>
+
+                <p>Das Projekt CEEC wird von der DFG im Programm "Retrospektive Digitalisierung von Bibliotheksbeständen" gefördert. Dieses Programm gehört zu dem Förderbereich "Verteilte Digitale Forschungsbibliothek".
+                Im Rahmen des Projektes CEEC werden die mittelalterlichen Kodizes der Erzbischöflichen Diözesan- und Dombibliothek Köln (DDB) digitalisiert. Die DDB ist damit weltweit die erste Bibliothek, die ihre mittelalterlichen Handschriftenbestände komplett(1) digitalisieren lässt und als "Digitale Bibliothek" der Öffentlichkeit zugänglich macht.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <p>
+            &copy; 2015
+                <a href="#" class="pull-right">Impressum</a>
+            </p>
+        </div>
+    </footer>
+
+</div>
+
+<!-- Benötigte Skripten: jQuery und Bootstrap -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="res/js/bootstrap.min.js"></script>
+<script src="res/js/behaviour.js"></script>
+<script src="res/jquery-plugins/slick/slick.js"></script>
+<script src="res/js/script.js"></script>
+
+</body>
+
+</html>
