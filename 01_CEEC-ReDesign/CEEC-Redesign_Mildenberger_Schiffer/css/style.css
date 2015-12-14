@@ -1,0 +1,122 @@
+html body{
+	background-color: rgb(192,192,192);
+}
+#wrapper{
+	width: 1000px;
+}
+
+/*Bild*/
+.pic{
+	max-width: 250px;
+	position: relative;
+	margin: 0px 0px 10px 10px;
+	float: top;
+	padding-top: 5px;
+}
+
+.img-responsive {
+	margin: 80px 0px 25px 100px;
+	cursor: pointer;
+}
+
+.search{
+	margin-left: 150px;
+	width: 1140px;
+}
+
+#custom-search-input{
+	margin-top: 70px;
+    padding: 2px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 23px;
+}
+
+/* Checbox */
+.well{
+	width: 360px;
+	margin-left: 150px;
+	margin-top: 10px;
+	position: relative;
+	padding-top: 0;
+	float: left;
+}
+
+#ergebnis {
+	padding: 10px;
+	margin: 0 0 0 550px;
+	width: 330px;
+	position: absolute;
+	float: right;
+	background-color: #888;
+	color: black;
+	border: 1px solid #666;
+}
+
+p a{
+	color: black;
+}
+
+article {
+	padding: 10px 0 10px 0;
+	color: black;
+	font-size: 12pt;
+}
+
+.langkatalogisat {
+	margin-top: 80px;
+}
+
+.state-icon {
+    left: -5px;
+}
+.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}
+.go{
+	margin-left: 150px;
+}
+
+p {
+	padding: 0;
+	margin: 0;
+}
+
+.btn.btn-primary.btn-lg {
+	margin-left: 100px;
+}
+
+.img-modal {
+	width: 100%;
+}
+
+.glyphicon.glyphicon-zoom-in{
+	margin-left: 100px;
+	cursor: pointer;
+}

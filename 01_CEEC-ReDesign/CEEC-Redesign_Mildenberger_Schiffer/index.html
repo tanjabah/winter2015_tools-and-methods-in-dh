@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Thomas n Benedikt">
+	<meta name="description" content="CEEC">
+	<meta name="keywords" content="Mittelalter, CEEC;">
+	
+    <title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+	<link href="css/style.css" rel="stylesheet">
+	
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+	<!-- Login etc. -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">CEEC Projekt</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>
+        </div>
+		</div>
+	</nav>
+	
+	<!-- Searchbar -->
+	<div id="wrapper">
+    <div class="search">
+	<div class="row">
+        <div class="col-md-4">
+            <div id="custom-search-input">
+                <div class="input-group col-md-12">
+                    <input type="text" class="form-control input-lg" placeholder="Suche" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-info btn-lg" type="button">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+	</div>
+	</div>
+
+	<!-- Checkboxen -->
+		<div class="well" style="max-height: 200px;overflow: auto;">
+				<h4>Jahrhundert</h4>
+        		<ul class="list-group checked-list-box">
+                  <li class="list-group-item">8. Jahrhundert</li>
+                  <li class="list-group-item">9. Jahrhundert</li>
+                  <li class="list-group-item">10. Jahrhundert</li>
+                  <li class="list-group-item">11. Jahrhundert</li>
+                  <li class="list-group-item">12. Jahrhundert</li>
+                  <li class="list-group-item">13. Jahrhundert</li>
+                  <li class="list-group-item">14. Jahrhundert</li>
+                  <li class="list-group-item">15. Jahrhundert</li>
+				  <li class="list-group-item">16. Jahrhundert</li>
+                </ul>
+            </div>
+			<div class="well" style="max-height: 200px;overflow: auto;">
+				<h4>Epoche</h4>
+        		<ul class="list-group checked-list-box">
+                  <li class="list-group-item">Frühmittelalter</li>
+                  <li class="list-group-item">Hochmittelalter</li>
+                  <li class="list-group-item">Spätmittelalter</li>
+				  <li class="list-group-item">Humanismus u. Renaissance</li>
+				  <li class="list-group-item">Reformation</li>
+				  <li class="list-group-item">Barock</li>
+                </ul>
+            </div>
+			<div class="well" style="max-height: 200px;overflow: auto;">
+				<h4>Land</h4>
+        		<ul class="list-group checked-list-box">
+                  <li class="list-group-item">Frankreich</li>
+                  <li class="list-group-item">Deutschland</li>
+                  <li class="list-group-item">Italien</li>
+                  <li class="list-group-item">Großbritannien</li>
+                </ul>
+            </div>
+			<div class="well" style="max-height: 200px;overflow: auto;">
+				<h4>Sprache</h4>
+        		<ul class="list-group checked-list-box">
+                  <li class="list-group-item">Latein</li>
+                  <li class="list-group-item">Griechisch</li>
+                  <li class="list-group-item">Englisch</li>
+                </ul>
+            </div>
+			<div class="well" style="max-height: 200px;overflow: auto;">
+				<h4>Vollständigkeit</h4>
+        		<ul class="list-group checked-list-box">
+                  <li class="list-group-item">vollständig</li>
+                  <li class="list-group-item">nicht vollständig</li>
+                </ul>
+            </div>
+			<div class="well" style="max-height: 200px;overflow: auto;">
+        		<h4>Qualität</h4>
+				<ul class="list-group checked-list-box">
+                  <li class="list-group-item">schlecht</li>
+                  <li class="list-group-item">mittel</li>
+				  <li class="list-group-item">gut</li>
+                </ul>
+            </div>
+			
+			<!-- Bilder -->
+			<div id="ergebnis">
+			  <h4>Antiphonarium officii (pars aestivalis)</h4>
+			  <p>1. Hälfte 16. Jh.</p>
+				<a href="detailseite.html"><img class="pic" src="img/small/02.jpg" alt="Selfhtml"></a>
+			  <p><a class="btn btn-primary btn-lg" href="detailseite.html" role="button">mehr</a></p>
+			</div>
+	</div>
+		
+		
+
+    <!-- Benötigte Skripten: jQuery und Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js">
+	</script><script src="js/effects.js"></script>
+</body>
+</html>
