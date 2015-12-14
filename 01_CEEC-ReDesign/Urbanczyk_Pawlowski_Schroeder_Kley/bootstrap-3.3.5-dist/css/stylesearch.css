@@ -1,0 +1,83 @@
+body {
+width: 100%;
+background-color: #EEEEEE  !important;
+}
+
+main {
+	float:left;
+	width: 400px;
+}
+
+.containerlogo {
+width: 100%;
+}
+
+img {
+width: 100%;
+margin-top: 5px;
+margin-left:-3px;
+}
+
+.jumbotron {
+	background-color: #EEEEEE;
+}
+
+.searchbutton {
+	border-radius: 5px;
+	width: 100px;
+	height:30px;
+	margin-left:20px;
+    background-color: #FFF;
+    border-color: #CCC;
+}
+
+
+
+aside {
+	float: right;
+	padding-left: 5%;
+	margin-top: 10px;
+}
+
+.ClearFloating{
+clear:both;
+}
+
+#scrollbox {
+width: 500px;
+height: 400px;	
+overflow:auto;
+}
+
+
+h4{
+margin-left: 20px;
+}
+
+h5 {
+margin-left: 20px;
+}
+
+img {
+margin-right: 10px;
+cursor: pointer;
+}
+
+.modal-title {
+ margin: 0;
+ line-height: 1.42857143;
+  }
+  
+ .modal-body {
+position: relative;
+padding: 15px;
+margin-left: 105px;
+}
+
+footer {
+clear: both;
+height: 10%;
+padding: 20px 0px;
+font-size: 0.9em;
+margin-left:10px;
+}
