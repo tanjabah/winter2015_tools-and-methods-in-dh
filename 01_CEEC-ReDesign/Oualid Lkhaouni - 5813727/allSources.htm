@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CEEC</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#c1">1</a></li>
+                    <li><a href="#c2">2</a></li>
+                    <li><a href="#c3">3</a></li>
+                    <li><a href="#c4">4</a></li>
+                    <li><a href="#c5">5</a></li>
+                    <li><a href="#c6">6</a></li>
+                    <li><a href="#c7">7</a></li>
+                    <li><a href="#c8">8</a></li>
+                    <li><a href="#c9">9</a></li>
+                    <li><a href="#c10">10</a></li>
+                    <li><a href="#c11">11</a></li>
+                    <li><a href="#c12">12</a></li>
+                    <li><a href="#c13">13</a></li>
+                    <li><a href="#c14">14</a></li>
+                    <li><a href="#c15">15</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+
+    <style>
+
+        #codexcontainer {
+            margin-top: 51px;
+        }
+
+        .imagebox {
+            background-color: #222;
+            padding: 5px;
+        }
+
+        .imagebox img {
+            width: 375px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 2px solid #777;
+            cursor: pointer;
+        }
+
+        .imagebox img:hover {
+            border: 2px solid #fff;
+        }
+
+        .modal-body {
+            background-color: #222;
+        }
+
+    </style>
+
+    <div id="codexcontainer">
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 imagebox" id="c1">
+                    <img class="img-responsive" src="img/small/01.jpg"
+                         data-toggle="modal" data-target="#modal_01">
+                </div>
+                <div class="col-sm-3 imagebox" id="c2">
+                    <img class="img-responsive" src="img/small/02.jpg"
+                         data-toggle="modal" data-target="#modal_02">
+                </div>
+                <div class="col-sm-3 imagebox" id="c3">
+                    <img class="img-responsive" src="img/small/03.jpg"
+                         data-toggle="modal" data-target="#modal_03">
+                </div>
+                <div class="col-sm-3 imagebox" id="c4">
+                    <img class="img-responsive" src="img/small/04.jpg"
+                         data-toggle="modal" data-target="#modal_04">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 imagebox" id="c5">
+                    <img class="img-responsive" src="img/small/05.jpg"
+                         data-toggle="modal" data-target="#modal_05">
+                </div>
+                <div class="col-sm-3 imagebox" id="c6">
+                    <img class="img-responsive" src="img/small/06.jpg"
+                         data-toggle="modal" data-target="#modal_06">
+                </div>
+                <div class="col-sm-3 imagebox" id="c7">
+                    <img class="img-responsive" src="img/small/07.jpg"
+                         data-toggle="modal" data-target="#modal_07">
+                </div>
+                <div class="col-sm-3 imagebox" id="c8">
+                    <img class="img-responsive" src="img/small/08.jpg"
+                         data-toggle="modal" data-target="#modal_08">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3 imagebox" id="c9">
+                    <img class="img-responsive" src="img/small/09.jpg"
+                         data-toggle="modal" data-target="#modal_09">
+                </div>
+                <div class="col-sm-3 imagebox" id="c10">
+                    <img class="img-responsive" src="img/small/10.jpg"
+                         data-toggle="modal" data-target="#modal_10">
+                </div>
+                <div class="col-sm-3 imagebox" id="c11">
+                    <img class="img-responsive" src="img/small/11.jpg"
+                         data-toggle="modal" data-target="#modal_11">
+                </div>
+                <div class="col-sm-3 imagebox" id="c12">
+                    <img class="img-responsive" src="img/small/12.jpg"
+                         data-toggle="modal" data-target="#modal_12">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4 imagebox" id="c13">
+                    <img class="img-responsive" src="img/small/13.jpg"
+                         data-toggle="modal" data-target="#modal_13">
+                </div>
+                <div class="col-sm-4 imagebox" id="c14">
+                    <img class="img-responsive" src="img/small/14.jpg"
+                         data-toggle="modal" data-target="#modal_14">
+                </div>
+                <div class="col-sm-4 imagebox" id="c15">
+                    <img class="img-responsive" src="img/small/15.jpg"
+                         data-toggle="modal" data-target="#modal_15">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Dialogdefinitionen -->
+    <div class="modal fade" id="modal_01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), um 1538</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/01.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Antiphonarium officii (pars aestivalis), 1. Hälfte 16. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/02.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_03" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Bruderschaftsbuch Unser Lieben Frau, ab 1429</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/03.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_04" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Collectio canonum Sanblasiana, 1. Hälfte 8. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/04.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Friedrich-Lektionar, Cod. 59, um 1130</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/05.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_06" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Graduale et Antiphonarium officii, 1353-1358</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/06.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_07" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Hagiographische Sammelhandschrift, 12. u. 14. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/07.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_08" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Kirchenrechtliche Sammelhandschrift, Cod. 117, 2. Hälfte 9. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/08.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_09" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Liber precum, 15. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/09.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_10" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Liturgische Sammelhandschrift, Cod. 87, 12. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/10.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_11" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Medizinisch-pharmazeutische Sammelhandschrift, 1403</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/11.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">MESS-ANTIPHONAR (Graduale) der Johanniterkommende Burgsteinfurt. 1. Hälfte 16. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/12.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_13" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">MESS-ANTIPHONAR (GRADUALE), römisch-Kölnisches. 1. Hälfte 16. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/13.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_14" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Missale ("Drachenfels-Missale"), 2. Hälfte 13. Jh. u. 15. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/14.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal_15" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Niederdeutsches (niederrheinisches) GEBETBUCH (Tagzeiten, Rosenkränze etc.), 15. Jh.</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="img/big/15.jpg" class="img-responsive" alt="Codex 1" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(".imagebox img").tooltip();
+</script>
+
+</body>
+</html>
