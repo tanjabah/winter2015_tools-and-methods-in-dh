@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,7 +18,7 @@
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/stylesearch.css" rel="stylesheet">
 
     <!-- on/off-switch-->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -49,13 +48,16 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>-->
-          <a class="navbar-brand" href="#">Home</a>
+          <a class="navbar-brand" href="index.html">Home</a>
 
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="#">Log In</a></li>
             <li><a href="#">Handschriften</a></li>
+			<li><a href="#">Historische Bibliothek</a></li>
+			<li><a href="#">Handapparat</a></li>
+			<li><a href="#">Werkzeuge</a></li>
             <li><a href="#">Upload</a></li>
             <li><a href="#">FAQ</a></li>
           </ul>
@@ -66,87 +68,115 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <input type="checkbox" name="extendedVers" checked>
+      
       <script>
       $("[name='extendedVers']").bootstrapSwitch();
       </script>
-      <div class="container">
-        <h1>CEEC</h1>
-        <p>Universität zu Köln</p>
+     <div class="containerlogo">
+        <img src="img/Logo.jpg" alt=" Logo CEEC" width="100%">
       </div>
-    </div>
+	
+	
+<div id="wrapper" class="ClearFloating">
+		<main role="main" width="300px">
+		<br>
+		<br>
+				<div class="input-group">
+			  <span class="input-group-addon" id="basic-addon1">Autor</span>
+			  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+					</div>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">Erscheinungsjahr</span>
+				  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+				</div>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">Titel</span>
+				  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+				</div>
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1">Textabschnitt</span>
+					  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1">Buchschmuck</span>
+					  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+					</div>
+					<div class="input-group">
+					  <span class="input-group-addon" id="basic-addon1">Provenienz</span>
+					  <input type="text" class="form-control" placeholder="" aria-describedby"basic-addon1">
+				</div>
+				<div class="input-group">
+				  <span class="input-group-addon" id="basic-addon1">Handschriftenart</span>
+				  <input type="text" class="form-control" placeholder="" aria-describedb"basic-addon1">
+				</div>
+				<hr>
+				<button type="submit" id="s" class="searchbutton">Suchen</button>
 
-    <div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Autor</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Erscheinungsjahr</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Titel</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Textabschnitt</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Buchschmuck</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Provienienz</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
-<div class="input-group">
-  <span class="input-group-addon" id="basic-addon1">Handschriftenart</span>
-  <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
-</div>
+				
+</main> 
 
+<aside role="complementary">
 
-    <div class"container">
-    <form role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default"><a href="search.html">Suchfilter</a></button>
-      </form>
-    </div>
+	
+		<div class="row">
+		<br>
+			<h4><strong>Kurzkatalogisat: Köln, Dombibliothek, Codex 59.</strong></h4>
+			<h5><strong>Friedrich-Lektionar, Cod. 59, um 1130</strong></h5>
+		</div>
+		<div id="scrollbox">
+		<br>
+                <div class="col-sm-3 imagebox" id="c5">
+                    <img class="img-responsive" src="img/05.jpg"
+                         data-toggle="modal" data-target="#modal_05">
+				</div>
+		
+		 <div class="modal fade" id="modal_05" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title" id="myModalLabel">Friedrich-Lektionar, Cod. 59, um 1130</h4>
+						</div>
+						<div class="modal-body">
+							<img src="img/05.jpg" class="img-responsive" alt="Codex 1" />
+						</div>
+					</div>
+				</div>
+			</div>		
+		
+		<strong>Namen und Signaturen:</strong> "51" (earlier shelf mark, f. 1r)
+		<br>
+		<strong>Titel:</strong> Friedrich-Lektionar
+		<br>
+		<strong>Verfasser:</strong> S. Hieronymi
+		<br>
+		<strong>Entstehungszeit:</strong> gegen 1130
+		<br>
+		<strong>Entstehungsort:</strong> Köln
+		<br>
+		<strong>Hauptsprache:</strong> Lateinisch
+		<br>
+		<strong>Beschreibstoff - Zusatz:</strong> Pergament
+		<br>
+		<strong>Incipit:</strong> In Nomine Domini Incipiunt Epistolae Sancti Ieronimi...
+		<br>
+		<strong>Explicit:</strong> ...qua(m) sub c(on)sulibus epicuri luxuria(m) susceperunt.
+		<br>
+		<br>
+		
+		<strong>Überblicksbeschreibung:</strong>
+		<br>
+			Friedrich-Lektionar Das auf einem vorangestellten Einzelblatt gemalte Titelbild (s. Abb. S.14) überliefert den Kölner Erzbischof Friedrich I. von Schwarzenburg (1100-1131) als Auftraggeber der fälschlich als Lektionar bezeichneten Handschrift, und der Titel auf der nachfolgenden Zierseite (1v) teilt mit, daß diese Edition der Briefe des hl. Hieronymus (347/348-419/420) wegen ihres großen Gewichts geteilt, also in zwei oder mehrere Bände zerlegt worden sei, von denen weitere jedoch nicht überkommen sind. Die Handschrift enthält in der Tat nur gut ein Viertel der etwa 120 erhaltenen Briefe, die der Kirchenvater bevorzugt an die Damen aristokratischer Familien seines römischen Bekanntenkreises adressierte, die aber auch in Korrespondenz mit Papst Damasus (366-384), mit Augustinus (354-430) und anderen entstanden. Im Sinne einer umfassenden christlichen Erziehungslehre berühren sie alle Bereiche seines Schaffens, nehmen Anteil an persönlich-familiären Ereignissen oder überliefern Nachrufe auf Verstorbene. Als Beispiele seien die in unserer Handschrift aufgenommenen Briefe 64 (81v) und 78 (85r) an Fabiola erwähnt, in denen Hieronymus eine allegorisch-erbauliche Deutung der alttestamentlichen priesterlichen Gewänder gibt bzw. sehr ausführlich über die 42 Lagerstätten der Israeliten in der Wüste handelt. Brief 57 'De optimo genere interpretandi' (121v) von 395/396 stellt eine grundsätzliche Abhandlung seiner Übersetzungsprinzipien dar. Das Briefcorpus zählt insgesamt 154 Nummern, von denen 34 nicht von Hieronymus stammen, sondern an ihn gerichtet, von ihm übersetzt oder aus anderen Gründen aufgenommen worden sind. Hierzu gehört z.B. Brief 51 (119v) von Epiphanius von Constantia bzw. Salamis (310/320-403), den Hieronymus übersetzte, oder Brief 83 (133v) von den Autoren Pammachius und Oceanus. Zudem enthält die Handschrift einige dogmatisch-polemische Werke des Hieronymus, Streitschriften gegen Helvidius (136r) aus dem Jahr 383 und gegen den Irrlehrer Jovinianus (141v) von 393, in denen der Kirchenvater die Jungfräulichkeit Marias und das asketische, ehelose Leben verteidigte. Aufgrund seiner Verurteilung der Lehren des Origenes (um 185-um 254) im Jahr 393 zerbrach seine Freundschaft mit Rufinus von Aquileia (um 345-411/412), gegen den er 'Contra Rufinum' (16v) im Jahre 401/402 verfaßte. Mit seiner Schrift 'Contra vigilantium' (9v) von 406 wird Hieronymus zum Anwalt christlicher Heiligen- und Reliquienverehrung und nimmt gewisse liturgische Gebräuche in Schutz. Die Titelminiatur visualisiert in Schrift und Bild komplexe Sinnzusammenhänge, wie sie sich später auch auf den rheinischen Reliquienschreinen, etwa in dem von Rupert von Deutz (1075/80-1129/30) beeinflußten Programm des Heribert-Schreins in St. Heribert zu Köln-Deutz entfalten. Die Inschriften im äußeren Rahmen sowie auf den Spruchbändern in Händen des Erzbischofs und des über ihm erscheinenden Gottessohnes charakterisieren den Kölner Metropoliten als jemanden, der seine Liebe zu Gottes Wort und Gesetz in täglicher Meditation bewahrt, und dem daraufhin die entgegnende Liebe Gottes verheißt, daß Christus mit dem Vater zu ihm kommen und "bei ihm Wohnung nehmen wird". Gottes Gebote offenbaren sich in der Hl. Schrift, deren Autoren in Auswahl von sieben Propheten des Alten Bundes und sieben Aposteln des Neuen als Büsten mit Spruchbändern in typologisch aufeinander bezogenen Paaren Verheißung und Erfüllung des Heilsplans Gottes dokumentieren. Die in den vier Eckmedaillons eingefügten Kardinaltugenden zeigen mit der Weisheit ihrer Sprüche den Weg zur Erfüllung des Gesetzes. Zudem nimmt das Titelbild unmittelbar auf den Inhalt der Handschrift Bezug. Erzbischof Friedrich thront auf dem mit Löwenköpfen geschmückten Faldistorium, der Kathedra, innerhalb seiner Residenzstadt, umgeben von Kisten mit Büchern, er sitzt also gleichsam in seiner Bibliothek, in der Bibliothek des Kölner Doms. Die Darstellung folgt darin dem Typus der seit karolingischer Zeit (Vivian-Bibel; Paris, Bibl. Nat., Lat. 1, 3v ) bekannten Tradition der Hieronymus-Bilder, die der Kölner Buchmalerei bereits in ottonischer Zeit geläufig waren und auch im Autorenbild (4v) des Hillinus-Codex (Dom Hs.12; Kat.Nr.76) aufgegriffen werden (Bloch/Schnitzler II 1970, bes. S. 144ff., Abb.630ff. ). In stellvertretender Auswechslung mit dem Kirchenvater erscheint in unserem Manuskript der Erzbischof also auch als Wahrer der Schriften des hl. Hieronymus, die ihn in den Bücherkisten umgeben und die er mit der vorliegenden Handschrift in einer weiteren Abschrift lebendig hält. Seine tägliche Meditation gilt diesen Schriften, die das Gesetz exegetisch behandeln, d.h. die Revision und Neuübersetzung der Hl. Schrift durch Hieronymus in den für das Mittelalter verbindlichen biblischen Einheitstext der Vulgata begleiten, und die zum anderen das Eingreifen in kirchlich-theologische Fragen jener Zeit belegen: wie es Erzbischof Friedrich als großer Gönner des schon genannten Rupert von Deutz, als Förderer des hl. Norbert von Xanten (1080/85-1134), auch als politisch agierender Zeitgenosse Kaiser Heinrichs IV. (1053-1106) und seines Sohnes Heinrich V. (1099-1125) und als Gründer von Klöstern verschiedener Reformorden (Prämonstratenser, Zisterzienser) in seine Zeit einbringt. Als Förderer der Siegburger Klosterreform sowie, nach anfänglicher Gegnerschaft, der Reformbestrebungen Papst Gregors VII. (1073-1085) erscheint vor dem historischen Hintergrund der Auseinandersetzung des Investiturstreits und dessen Beilegung auf dem Wormser Konkordat von 1122 die Miniatur wie ein anspruchsvolles Legitimationsbild (Stangier 1995) im Selbstverständnis des Kölner Metropoliten. Stilistisch steht die Miniatur in der Nachfolge des kölnischen Evangeliars von St. Maria Lyskirchen (Leihgabe im Schnütgen-Museum; Bloch/Schnitzler I 1967, S. 113ff., Nr.XX ) und wird noch vor Arbeiten wie der Miniatur auf dem Eilbertus-Tragaltar (Berlin, Kunstgewerbemuseum PK; D. Kötzsche, in: Rhein und Maas II 1973, bes. 217ff., Farbtafel 9f.) gegen 1130 in Köln entstanden sein, worauf auch der einheitliche Initialschmuck hinweist. Autor des Textes: Joachim M. Plotzek
+	</div>
+</div>
+</aside>
 
-    <div class="container">
-      <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-      </div>
-
-    <div id="links">
-    <a href="img/running1.jpg" title="Running">
-        
-    </a>
-    <a href="img/strava1.jpg" title="Strava">
-        <img src="img/strava1.jpg" alt="Apple">
-    </a>
-    <a href="img/ginger1.png" title="Ginger">
-        <img src="img/ginger1.png" alt="Orange">
-    </a>
-    </div>
-     
-
-      <hr>
-
-      <footer>
+    </div> <!-- /container -->
+	
+	<footer>
+		<hr>
         <p>&copy; HKI 2015</p>
       </footer>
-    </div> <!-- /container -->
-
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
@@ -165,5 +195,5 @@
     blueimp.Gallery(links, options);
     };
     </script>
-  </body>
+ </body>
 </html>
