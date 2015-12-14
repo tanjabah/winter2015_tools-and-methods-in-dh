@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Benjamin Mausolf">
+	<meta name="description" content="Homepage der CEEC">
+	<meta name="keywords" content="CEEC, Handschriften, Bibliothek, Digital Humanities">
+	
+    <title>CEEC - Codices Electronici Ecclesiae Coloniensis</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <!-- ToDo: Navigationsleiste -->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CEEC</a>
+            </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="Index.htm">Home</a></li>
+                    <li><a href="handschriften.htm">Handschriften</a></li>
+                    <li><a href="#">Historische Bibliothek</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Erfasste Bibliotheken<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Bergisch-Gladbach, Paffrath, Kath. Pfarrei St. Clemens</a></li>
+                            <li><a href="#">Düsseldorf, St. Lambertus</a></li>
+                            <li><a href="#">Düsseldorf, Gerresheim, Kath. Pfarrei St. Margareta</a></li>
+                            <li><a href="#">Euskirchen, Kath. Pfarrei St. Martin</a></li>
+                            <li><a href="#">Kerpen, Kath. Pfarrei St. Martinus</a></li>
+                            <li><a href="#">Kerpen, Sindorf, Kath. Pfarrei St. Maria Königin</a></li>
+                            <li><a href="#">Köln, Erzbischöfliche Diözesan- und Dombibliothek</a></li>
+                            <li><a href="#">Köln, Kath. Pfarrei St. Kunibert</a></li>
+                            <li><a href="#">Königswinter, Kath. Pfarrei St. Remigius</a></li>
+                            <li><a href="#">Kerpen, Kath. Pfarrei St. Martinus</a></li>
+                            <li><a href="#">Kerpen, Kath. Pfarrei St. Martinus</a></li>
+                            <li><a href="#">Kerpen, Kath. Pfarrei St. Martinus</a></li>          
+                        </ul>
+                    </li>
+                    <li><a href="#">Handapparat</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Werkzeuge<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Paläographische Dokumentation</a></li>
+                            <li><a href="#">TaggingAppication</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Kontakt</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sprache <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">DE</a></li>
+                            <li><a href="#">EN</a></li>
+                            <li><a href="#">FR</a></li>
+                            <li><a href="#">ES</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div id="codexcontainer" class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" id="sidebar">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="input-group">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                            </span>
+                            <input type="text" class="form-control" placeholder="Suche">
+                        </div>
+                    </li>
+                    <li class="list-group-item liste1">Hauptsuchkriterium:</li>
+                    <li class="list-group-item liste2">Suche in allen Feldern</li>
+                    <li class="list-group-item liste2">Textabschnitte</li>
+                    <li class="list-group-item liste2">Incipit als ganze Zeilen</li>
+                    <li class="list-group-item liste2">Explicit als ganze Zeilen</li>
+                    <li class="list-group-item liste2">Buchschmuck</li>
+                    <li class="list-group-item liste2">Worte im Incipit</li>
+                    <li class="list-group-item liste2">Worte im Explicit</li>
+                    <li class="list-group-item liste2">Autor</li>
+                    <li class="list-group-item liste2">Titel</li>
+                    <li class="list-group-item liste2">Physikalische Eigenschaften</li>
+                    <li class="list-group-item liste1">Sortieren nach:</li>
+                    <li class="list-group-item liste2">Autor</li>
+                    <li class="list-group-item liste2">Jahr</li>
+                    <li class="list-group-item liste2">Fundort</li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="imagebox col-md-3"><a name="img1" data-toggle="modal" data-target="#img01big"><img src="img/small/01.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img2" data-toggle="modal" data-target="#img02big"><img src="img/small/02.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img3" data-toggle="modal" data-target="#img03big"><img src="img/small/03.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img4" data-toggle="modal" data-target="#img04big"><img src="img/small/04.jpg" class="img-responsive"></a></div>     
+                </div>
+                <div class="row">
+                    <div class="imagebox col-md-3"><a name="img5" data-toggle="modal" data-target="#img05big"><img src="img/small/05.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img6" data-toggle="modal" data-target="#img06big"><img src="img/small/06.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img7" data-toggle="modal" data-target="#img07big"><img src="img/small/07.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img8" data-toggle="modal" data-target="#img08big"><img src="img/small/08.jpg" class="img-responsive"></a></div>
+                </div>
+                <div class="row">         
+                    <div class="imagebox col-md-3"><a name="img9" data-toggle="modal" data-target="#img09big"><img src="img/small/09.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img10" data-toggle="modal" data-target="#img10big"><img src="img/small/10.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img11" data-toggle="modal" data-target="#img11big"><img src="img/small/11.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img12" data-toggle="modal" data-target="#img12big"><img src="img/small/12.jpg" class="img-responsive"></a></div>      
+                </div>
+                <div class="row">
+                    <div class="imagebox col-md-3"><a name="img13" data-toggle="modal" data-target="#img13big"><img src="img/small/13.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img14" data-toggle="modal" data-target="#img14big"><img src="img/small/14.jpg" class="img-responsive"></a></div>
+                    <div class="imagebox col-md-3"><a name="img15" data-toggle="modal" data-target="#img15big"><img src="img/small/15.jpg" class="img-responsive"></a></div> 
+                </div>
+                <div class="row">
+                    <nav class="col-md-9">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+		
+   
+    
+    <!-- Large modal -->
+
+        <div class="modal fade" id="img01big" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h1>Antiphonarium officii (pars aestivalis), um 1538</h1>
+                    <img src="img/big/01.jpg" class="img-responsive">
+                    <nav>
+                        <ul class="pager">
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+                            <li><a class="btn btn-default" href="detail.htm" role="button">Mehr dazu &raquo;</a></li>
+                            <li><a id="test" data-toggle="modal" data-target="#img02big" data-dismiss="modal" aria-label="Close"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li> <!-- An dieser Stelle sollte ein Funktion zum Blättern sein, diese funktioniert allerdings nicht so, wie gewollt -->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="img02big" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h1>Antiphonarium officii (pars aestivalis), 1. Hälfte 16. Jh.</h1>
+                    <img src="img/big/02.jpg" class="img-responsive">
+                    <nav>
+                        <ul class="pager">
+                            <li><a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a></li>
+                            <li><a class="btn btn-default" href="#" role="button">Mehr dazu &raquo;</a></li>
+                            <li><a data-target="#img02big"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        
+    
+
+        
+    </div> <!-- /container -->
+    <footer class="navbar navbar-inverse" id="footer">
+        <p>&copy; CEEC Köln</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/script.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+</body>
+</html>

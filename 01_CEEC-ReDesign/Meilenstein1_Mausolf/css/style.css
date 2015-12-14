@@ -1,0 +1,97 @@
+body {
+	background-image: url("../img/beige_paper/beige_paper.png");
+	
+}
+
+.fussnote {
+    border-top: 1px solid black;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+p {
+    text-align: justify;
+}
+
+#codexcontainer img {
+    /*width: 375px;*/
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #777;
+    cursor: pointer;
+    padding: 0 0 0 0;
+    
+}
+
+/*#codexcontainer {
+    margin-top: 75px;
+}*/
+
+.imagebox {
+    padding: 4px 4px 4px 4px;
+}
+
+#sidebar {
+    padding: 0 5px 0 5px;
+}
+
+.modal-content h1{
+    margin: 20px 20px 15px 20px;
+    font-size: 18px;
+}
+
+.modal-content button {
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.pagination {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.liste1 {
+    font-weight: 600;
+}
+
+.liste2 {
+    padding-left: 25px;
+}
+
+.tab-content {
+    background-color: white;
+    border: 1px solid #DDD;
+    border-top: none;
+}
+
+.katalog {
+    padding: 10px 10px 10px 0px;
+}
+
+.katalog td {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+#zensus {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding-left: 20px;
+    color: #9d9d9d;
+}
+
+footer p {
+    
+    margin-top: 13px;
+}
+
+.nav a {
+    color: grey;
+}
+
+a {
+    color: black;
+}
