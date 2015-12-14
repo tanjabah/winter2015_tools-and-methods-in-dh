@@ -1,0 +1,124 @@
+html, body{
+  height:100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/** index */
+.search-main {
+	width:100%;
+	background:#000;
+	height:100%;
+	background:url('../img/old-books-436498_1920.jpg');
+}
+
+.search-main > * {
+    padding-top: 15%;
+    color: #fff;
+}
+
+.btn-erweitert {
+	color:#fff;
+	cursor: pointer;
+}
+
+.last-entries{
+	padding-top: 5px;	
+}
+
+.line {
+
+	border-top: 1px solid #aaa;
+}
+
+.last-entries article {
+	background-size: cover;
+	height:auto;
+	cursor: pointer;
+	background-position: center;
+	margin-bottom: 10px;
+}
+
+.last-entries article .article-info {
+	background:rgba(0,0,0,.5);
+	height: inherit;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+}
+
+.erweitert-group {
+	display:none;
+}
+
+footer {
+    background: #101010;
+    margin-top: 20px;
+    padding: 10px 0px;
+    color: #fff;
+    font-weight: lighter;
+}
+.navbar {
+	border-radius: 0;
+	margin-bottom:0;
+	background:rgba(0,0,0,0.7);
+	position: fixed;
+	top:0;
+	width:100%;
+	z-index: 9999;
+}
+
+footer a {
+	color:#fff;
+}
+ 
+
+ /** detail */
+ #detail {
+ 	margin-top:50px;
+ }
+
+ .multiple-items img {
+	max-width:200px;
+}
+
+.detail-title {
+	font-weight: bold;
+}
+
+.first {
+	margin-top:45px;
+}
+
+div.detail-image {
+	max-height: 180px;
+	overflow: hidden;
+	background-position: center;
+	background-size: cover;
+	height:180px;
+}
+
+.tag {
+	border-radius:4px;
+	background:rgba(0,0,0,0.4);
+	color:#fff;
+	text-align: center;
+	padding:4px 5px;
+}
+
+.breadcrumb {
+	margin-top:10px;
+}
+/**
+SLICK SETTINGS
+*/
+ .slick-slide img {
+ 	display:inline-block!important;
+ }
+
+ .slick-slide {
+ 	text-align: center;
+ }
+
+ .image-container {
+ 	overflow: scroll;
+ }
