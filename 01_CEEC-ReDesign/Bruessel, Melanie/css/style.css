@@ -1,0 +1,90 @@
+/*
+img {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #777;
+    cursor: pointer;
+    padding-left: 0px;
+    padding-right: 0px;
+}*/
+#img01 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-inverse li.active{
+    background: Black;
+}
+#search{
+    text-align: center;
+    padding-bottom: 100px;
+}
+#search form{
+    padding-top: 35px;
+}
+#nav1st{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.gloss {
+    font-size: 10px;
+}
+.tofill:hover{
+    text-decoration: underline;
+    color: white;
+}
+.inv li.active{
+    background: Black;
+}
+#details{
+    background: #222222;
+    color: grey;
+    margin-bottom: 1px;
+}
+#left, #right {
+    width: 50px;
+}
+
+
+/*toggle menu*/
+.xs-collapse, .md-collapse{
+    display: none;
+    visibility: visible;
+    color: grey;
+}
+.md-collapse a, .inv{
+    color: grey;
+}
+.xs-toggle .icon-bar, .md-toggle .icon-bar{
+  display: block;
+  width: 50px;
+  height: 2px;
+  border-radius: 1px;
+}
+.xs-toggle .icon-bar + .icon-bar, .md-toggle .icon-bar + .icon-bar{
+  margin-top: 4px;
+}
+.btn-default .icon-bar {
+  background-color: #888;
+}
+@media (min-width: 767px) {
+    .xs-toggle {
+        display: none;
+        visibility: hidden;
+    }
+    .xs-collapse {
+        display: block;
+        visibility: visible;
+    }
+}
+@media (min-width: 992px) {
+    .md-toggle {
+        display: none;
+        visibility: hidden;
+      }
+    .md-collapse {
+        display: block;
+        visibility: visible;
+    }
+}

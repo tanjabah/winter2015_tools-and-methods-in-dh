@@ -1,0 +1,17 @@
+<!--IT-ZErtifikat, Melanie Brüssel, 6068626, 11.12.2015--> 
+        
+<!ENTITY % id "id ID #REQUIRED">
+
+<!ELEMENT CEEC (name?, lokalisation, object+)> 
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT lokalisation EMPTY>
+    <!ATTLIST lokalisation
+            url CDATA #IMPLIED
+    >
+<!ELEMENT object (content+)>
+    
+<!ELEMENT titel (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST content
+            titel CDATA #REQUIRED
+    >

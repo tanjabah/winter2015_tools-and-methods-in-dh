@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE CEEC SYSTEM "CEEC.dtd">
+<!--IT-ZErtifikat, Melanie Brüssel, 6068626, 11.12.2015-->
+<CEEC>
+    <lokalisation/>
+    <object>
+        <content titel="Der Projekttitel">&lt;p&gt;Natürlich, ein historisches Forschungsprojekt braucht einen lateinischen Namen. Frei ins Deutsche übersetzt bedeutet der Titel "Die elektronischen Kodizes
+            der Kölner
+            Kirche". Dieser Titel provoziert eine Reihe von Fragen: Was ist eigentlich ein Kodex? Und was dagegen "elektronische Kodices"? Und was ist mit "Kölner Kirche"
+            gemeint?&lt;/p&gt;
+            &lt;p&gt;
+            &lt;a id="fn1"&gt;&lt;/a&gt;Als Kodex bezeichnen die Historiker ein Buch, welches aus zusammengenähten Lagen Blättern besteht. Ein Kodex besteht in Fall der DDB in der
+            Regel aus
+            Pergament. (Pergament wiederum wird aus Tierhaut hergestellt. Fell und Fleisch wurden abgeschabt.) Die Bezeichnung Kodex dient zur Unterscheidung der Form von z.B. einer
+            Rolle. Kodizes, in einer weiteren Unterscheidung, sind mit der Hand geschrieben, im Gegensatz zum gedruckten Buch.
+            &lt;a href="#anm1"&gt;
+            &lt;span class="fnn"&gt;
+            &lt;sup&gt;1&lt;/sup&gt;
+            &lt;/span&gt;
+            &lt;/a&gt;&lt;/p&gt;
+            &lt;p&gt;Ein "elektronischer Kodex" ist nun die digitalisierte Form, ein Abbild des "realen" Kodex. Die Kodizes der DDB werden im Rahmen des Projektes digitalisiert und in
+            verschiedenen Auflösungen im Internet zur Verfügung gestellt. Zwischen den digitalisierten Seiten kann man blättern wie in einem "realen" Buch und so handelt es sich also
+            um "Codices Electronici", um "elektronische Kodizes". Ein Feature des Projektes soll es z.B. sein, dass der Benutzer den Originalzustand einer Handschrift auf Mausklick
+            rekonstruieren können soll. Wenn eine Handschrift irgendwann einmal auseinandergenommen und falsch wieder zusammengesetzt worden ist, dann soll der Benutzer dies
+            rückgängig machen können.&lt;/p&gt;
+            &lt;p&gt;Mit den Codizes der Kölner Kirche sind hier die Bestände einer speziellen Bibliothek gemeint, die Erzbischöfliche Diözesan- und Dombibliothek (DDB). Wie der Name
+            schon
+            sagt, handelt es sich hierbei eigentlich um zwei Bibliotheken, um die Diözesanbibliothek und die Dombibliothek. Die Dombibliothek ist die ältere der beiden Bibliotheken.
+            Diese Institution existiert mindestens seit dem Ende des 8. Jahrhunderts, seitdem Karl der Große Köln zu einem Erzbistum gemacht hatte. Der erste Kölner Erzbischof
+            Hildebald ist besonders wichtig für diese Institution, da er einige der heutigen Bücher der Bibliothek in Auftrag gegeben hat. Die große Besonderheit dieser Sammlung
+            besteht darin, dass wir heute einen großen Teil der Bücher besitzen, welche die Bibliothek schon im Mittelalter, ja sogar schon im 9.Jahrhundert besessen hat. Andere
+            Bibliotheken sind häufig zerstört oder auseinandergerissen worden, verloren gegangen durch die Jahrhunderte. Hier in Köln haben wir allerdings ein einmaliges Zeugnis für
+            die Bildungsgeschichte früherer Zeiten. Das älteste Buch der Dombibliothek stammt aus dem Jahre 590/604. (Zur weiteren Bibliotheksgeschichte vgl. die Abteilung 
+            &lt;a href="javascript:top.optionen.los('navi/reiterHistorische.htm','history/historische.htm')"&gt;Historische Bibliothek&lt;/a&gt;.) Um eine Sammlung von Bibliotheken
+            bzw. um
+            eine jüngere Bibliothek handelt es sich bei der Diözesanbibliothek. Aus der gesamten Diözese Köln gibt es Bücher in der Sammlung, z.B. Bücher, welche in St. Gereon
+            geschrieben wurden oder in St. Ursula etc.&lt;/p&gt;&lt;p&gt;</content>
+    </object>
+    <object>
+        <content titel="Die Zugriffsinstrumente"><![CDATA[<p>
+<a id="zugriff"></a>
+</p>
+<h3>Die Zugriffsinstrumente</h3>
+<p>
+<a id="fn2"></a>Ein Hauptbestandteil der Arbeit in dem Projekt besteht, neben der reinen Digitalisierung, im Zusammentragen aller verfügbaren Informationen über die
+Handschriften. Über jede Handschrift gibt es zahlreiche Informationen und die Bibliothek oder Teile von ihr sind mehrfach katalogisiert worden. Im Rahmen des Projektes
+wird daraus ein "Meta-Katalog" generiert.
+<a href="#anm2">
+<span class="fnn">
+<sup>(2)</sup>
+</span>
+</a></p>
+<p>Grundsätzlich gibt es zwei Möglichkeiten des Zugriffes: die Suche und das Stöbern (Browsen). Die Möglichkeit, die Bestände dieser digitalen Bibliothek zu
+"durchstöbern", verbirgt sich hinter dem Reiter 
+<a href="javascript:top.optionen.los('navi/reiterHandschriften.htm','browse/handschriften.htm')">Handschriften</a>. Wenn Sie diesen anklicken, werden Sie dort Links
+zu Listen vorfinden, die jeweils eine Sortierung der Handschriften anbietet, geordnet nach Signaturen, nach Alter, nach Herkunftsorten etc. In diesen Listen sehen Sie
+neben der Beschreibung der Handschrift einige der folgenden Symbole:</p>
+<div>
+<table>
+<tr>
+<td>
+<img src="buttons/kurz.gif" alt="Katalogdaten Kurzanzeige" />
+</td>
+<td>
+<p>
+<a id="fn3"></a>Über diesen Button erreichen Sie einen Kurzkatalog, der lediglich die Signatur, Herkunft und die wichtigsten Erkennungsmerkmale
+<a href="#anm3">
+<span class="fnn">
+<sup>(3)</sup>
+</span>
+</a> einer Handschrift sowie eine kurze Literaturliste aufführt.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/mittel.gif" alt="Katalogdaten Normalanzeige" />
+</td>
+<td>
+<p>
+<a id="fn4"></a>Das erweiterte Kurzkatalogisat gibt dann auch Informationen über den Inhalt der Handschrift. Die inhaltliche Beschreibung ist dem Katalog mit der höchsten
+Autorität
+<a href="#anm4">
+<span class="fnn">
+<sup>(4)</sup>
+</span>
+</a> entnommen;</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/lang.gif" alt="Katalogdaten ausführliche Anzeige" />
+</td>
+<td>
+<p>und das Langkatalogisat führt alle Informationen auf, die zu der entsprechenden Handschrift in den verarbeiteten Katalogen vorhanden ist.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/seite.gif" alt="Abbildungen der Handschrift (erste Seite)" />
+</td>
+<td>
+<p>Dieser Button führt Sie zur ersten Handschriftenseite. Als erstes wird das Bild in der kleinsten Auflösung geladen.
+<br />Aber 
+<span class="red">Achtung</span>: Da die Handschriften komplett digitalisiert werden, sind auch eventuell vor- oder nachgebundene Blätter als Bilder vorhanden. Diese
+erreichen Sie über die Auswahlliste oder den "Vorherige Seite"-Button. Die Seiten sind mit einem vorangestellten V bzw. N gekennzeichnet.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/buch.gif" alt="Abbildungen der Handschrift (Einband)" />
+</td>
+<td>
+<p>Dieser Button führt Sie zum Bucheinband. Dazu zählen hier Buchdeckel und -rücken, die Rück- und die Schliessenseite, sowie die Innenseiten von Buchdeckel und
+Rückseite.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/einlage.gif" alt="Abbildungen lose eingelegter Seiten" />
+</td>
+<td>
+<p>Falls die Handschrift Beilagen enthält, führt Sie dieser Button zu dem ersten der Handschrift beigefügten oder eingelegten Blättern.</p>
+</td>
+</tr>
+<!--
+<tr>
+    <td><img src="buttons/detail.gif" alt=""></td>
+    <td><p>Dieser Button f&uuml;hrt Sie zu dem ersten Bild einer Serie von Detailaufnahmen, z.B. von Miniaturen, Initialen, speziellen Textpartien oder &auml;hnlichem (Falls es Detailaufnahmen der Handschrift gibt).</p></td>
+</tr>
+-->
+</table>
+</div>]]></content>
+    </object>
+    <object>
+        <content titel="Die Grafikdateien für das Web"><![CDATA[<p>Im Web stehen 4 (in Ausnahmefällen 5) Varianten einer Handschriftenseite zur Verfügung. Diese werden durch die folgenden Icons symbolisiert:</p>
+<div>
+<table>
+<tr>
+<td>
+<img src="buttons/AugeS.gif" alt="Überblick" />
+</td>
+<td>
+<p>Das Icon "Auge" steht für die kleinste Variante, die es auch auf einem Bildschirm mit der Auflösung 800*600 Pixel möglich machen soll, die gesamte Handschriftenseite
+auf einen Blick zu sehen. Es erschien uns wichtig, die Möglichkeit eines schnellen Überblicks zu geben. Von dort aus kann man in mehreren Stufen "hineinzoomen" in das
+Bild.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/BrilleS.gif" alt="Arbeitsqualität" />
+</td>
+<td>
+<p>Das Icon "Brille" symbolisiert das Bild mit einer Breite von 1000 Pixel, so dass man die volle Breite einer Zeile Schrift auf einem Monitor mit der Auflösung 1024*768
+Pixel darstellen kann.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/LupeS.gif" alt="Verbesserte Qualität" />
+</td>
+<td>
+<p>Die dritte Auflösung mit einer Bildgröße von 1600 Pixel Breite, dargestellt durch die "Lupe", ist jeweils eine technisch veränderte Datei. Der Kontrast wird jeweils
+erhöht, um so die Lesbarkeit des Textes zu verbessern.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/MikroS2.gif" alt="Maximale Auflösung" />
+</td>
+<td>
+<p>Sollte eine Stelle im Text immer noch nicht zu entziffern sein, kann man noch die höchste Auflösung abrufen, die durch das Symbol "Mikroskop" vertreten wird. Diese
+Datei ist in Originalgröße, 4491*3480 Pixel, allerdings in jpg-Format.</p>
+</td>
+</tr>
+<tr>
+<td>
+<img src="buttons/Schere3.gif" alt="Detailaufnahmen zu dieser Seite" />
+</td>
+<td>
+<p>Zu einigen Stellen einer Handschriftenseite kann es zusätzliche Detailaufnahmen geben, die durch diesen Button aufgerufen werden können.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>Diese Dateien sind jeweils mit einem Wasserzeichen versehen. Die Originaldateien können nach der Unterzeichnung eines Nutzungsvertrages bei der Bibliothek auf CD-ROM
+angefordert werden.</p>]]></content>
+    </object>
+</CEEC>
