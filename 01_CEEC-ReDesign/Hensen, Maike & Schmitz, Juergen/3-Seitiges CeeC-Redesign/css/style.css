@@ -1,0 +1,141 @@
+
+
+
+
+body {background-color: darkslategrey;}
+
+body.search {
+
+    background-color: grey;
+
+}
+
+
+/* Header*/
+
+	/*Navigationsleiste */
+
+#logo{height:15em;margin:1.8em; margin-left:4.5em;margin-right: 0.2em; border:2px solid black;}
+
+.navbar-default {background-image: url("../img/header-background.jpg") ;background-size: 100% 100%;background-repeat: no-repeat;
+    border: solid black medium; padding: 15px; margin-bottom:0;
+
+}
+
+nav ul li { margin-top:50%; background-color: black  ;
+ text-align: center;
+
+
+font-size: 1.3em;}
+
+/*Mini-Suchleiste */
+
+
+
+
+
+
+
+/*Body */
+
+
+
+/*Große Suchleiste */
+
+.searchbox-lg {margin-left:auto; margin-right:auto; width:40%;  padding:0; color:indianred  ; font-size: 1.3em;
+    text-align: center;
+}
+
+.searchbox-lg .navbar-form .form-control {
+
+    width: 53%; 
+}
+
+
+
+    /* Karussel */
+.carousel {
+  height: 50%;
+  margin-bottom: 60px;
+  background-image:url("data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==") ;
+                    }
+
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 500px;
+  
+}
+.carousel-inner > .item > img {
+  
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+
+.carousel-img { width:220px; border: 1px solid darkred; margin-left:auto; margin-right:auto;}
+
+
+
+
+/* Search-Seite*/
+
+
+
+/* Timeline */
+
+#timeframe { width:100%; height: 7em;}
+
+
+
+
+	/*Zweispaltiges Layout */
+.container-l {float:left; height:100%;width: 72%; background-color: darkslategrey; margin:0; font-size:1.7em;
+padding:1.5em;
+
+
+color:white;
+}
+.suchergebnisse { border: solid 3px black;}
+
+
+
+
+.container-r {float:right; height:100%;width:28%; background-color: grey;margin:0;padding:2.5em; ; font-size:1.4em; text-align:left;
+
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {height:15em ; color: black; background-image: url("../img/footer-background.jpg"); background-size: 100% 100%; 
+text-align: right; width:100%;
+
+clear:both;
+
+
+border: solid medium black;
+		}
+
+
+/*Positionierung der Footer-Navigation */
+
+footer ul {margin-top:0; padding-top:16px;text-align:center;
+    box-sizing: border-box;  list-style-type: none; list-style-position: outside;
+}
+footer ul li {  display: inline; font-size:1.4em;margin:0;
+}
+
+
+footer ul li:after {content: "|";}
+footer ul li:last-child:after {
+    content: "";}

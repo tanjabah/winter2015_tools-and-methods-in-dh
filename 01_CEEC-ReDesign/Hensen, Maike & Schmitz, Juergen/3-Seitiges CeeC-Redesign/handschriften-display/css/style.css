@@ -1,0 +1,20 @@
+.row img {
+    width: 375px;
+
+    margin: 5px;
+
+    border: 3px solid darkred;
+    cursor: pointer;
+
+}
+
+body {background-color: darkslategray;}
+
+.navbar-default {background-color:darkred;
+    border: dashed; padding: 15px;
+border-color:black;
+
+
+}
+nav ul li { background-color: black  ;
+font-color:white;}
