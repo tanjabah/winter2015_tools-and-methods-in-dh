@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Melanie Brüssel">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/themes/OtterSpace.min.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile.min.js"></script>
+		<title>OtterSpace-Adventure</title>
+	</head>
+	
+	<body>
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				// Testausgabe
+				// alert("Es funktioniert");
+				
+			});
+		
+		</script>
+		
+<!--Seite 1 -->
+		<div data-role="page" id="seite1">
+		
+			<div data-role="header">
+				<h1>OtterSpace</h1>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a data-transition="pop" data-icon="home" class="ui-btn ui-btn-active">Home</a></li>
+						<li><a data-transition="pop" href="#seite2" data-icon="info" class="ui-btn">Info</a></li>
+                        <li><a data-transition="pop" href="#seite3" data-icon="power" class="ui-btn">Adventure</a></li>
+
+					</ul>
+				</div>
+			</div>
+            <div role="main" class="ui-content">
+                <a href="#seite3"><img src="img/eins-01.png" alt="titel" class="img"></a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Melanie Brüssel</h4>
+			</div>
+		</div>
+		
+<!--Seite 2 -->		
+		<div data-role="page" id="seite2">
+		
+			<div data-role="header">
+				<h1>Information</h1>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a data-transition="pop" href="#seite1" data-icon="home" class="ui-btn">Home</a></li>
+						<li><a data-transition="pop" data-icon="info" class="ui-btn ui-btn-active">Info</a></li>
+                        <li><a data-transition="pop" href="#seite3" data-icon="power" class="ui-btn">Adventure</a></li>
+
+					</ul>
+				</div>
+			</div>
+			
+			<div role="main" class="ui-content">
+                <div class="l">
+                    <img src="img/Unbenannt-3-01.png" alt="otter" class="img">
+                </div>
+                <div class="r">
+                <div data-role="collapsibleset">
+                    <div data-role="collapsible">
+                        <h1>OtterSpace</h1>
+                        <p><b>OtterSpace</b> ist eine App, basierend auf einer Ansammlung von Minispielen.</p><p>
+Könnt ihr dem Otter auf seiner Reise im O(ut)ter Space helfen?</p>
+                         <a href="https://play.google.com/store/apps/details?id=com.TeamOtterSpace.Otterspace" target="_blank"><img src="img/2016-01-30titelbild-01.png" alt="beta" class="img"></a>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Team OtterSpace</h1>
+                        <p>Die Minispiele-Sammlung <b>OtterSpace</b> wird von einer Gruppe Studenten der Universität zu Köln im Rahmen eines Seminares zum Thema <a href="http://www.hki.uni-koeln.de/display_course/342" target="_blank">Computerspielsucht</a> erstellt.</p><p>Noch steht die App in den Kinderschuhen. Aber schon bald wird der kleine Otter groß genug sein, um seine Reise in AnOtteryUniverse anzutreten.</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Kontakt</h1>
+                        <p>Wollt ihr mehr über einen Otter uns seine Mission im <b>OtterSpace</b> erfahren, so stehen euch folgende Röhren offen:</p>
+                        <div class="socialdiv">
+                        <a href="mailto:otterspace.community@gmail.com"><img src="img/social/email131.png" alt="email" class="social"></a>
+                        <a href="https://www.facebook.com/OtterSpaceTheGame" target="_blank"><img src="img/social/facebook2.png" alt="facebook" class="social"></a>
+                        <a href="https://twitter.com/OtterSpaceGame" target="_blank"><img src="img/social/twitter.png" alt="twitter" class="social"></a>
+                        <a href="https://www.youtube.com/channel/UCaj9zehTGOWcBCZR-go3mWw" target="_blank"><img src="img/social/youtube30.png" alt="youtube" class="social"></a>
+                        </div>
+                    </div>
+				</div>
+			</div>
+            </div>
+		
+			<div data-role="footer">
+				<h4>&copy; Melanie Brüssel</h4>
+			</div>
+		</div>
+    
+<!--Seite 3 -->
+		<div data-role="page" id="seite3">
+		
+			<div data-role="header">
+				<h1>Text Adventure</h1>
+				<div data-role="navbar" data-iconpos="top">
+					<ul>
+						<li><a data-transition="pop" href="#seite1" data-icon="home" class="ui-btn">Home</a></li>
+						<li><a data-transition="pop" href="#seite2" data-icon="info" class="ui-btn">Info</a></li>
+                        <li><a data-transition="pop" data-icon="power" class="ui-btn ui-btn-active">Adventure</a></li>
+
+					</ul>
+				</div>
+			</div>
+			
+                <div role="main" class="ui-content">
+                    <a href="#start"><img src="img/22.01.16_BreakScreen_Score.png" alt="start" class="img"></a>
+                    <a href="#start" class="img"><h1>START</h1></a>
+                </div>
+                
+            <div data-role="footer">
+				<h4>&copy; Melanie Brüssel</h4>
+			</div>
+		  </div>
+        
+<!--start-->
+                <div data-role="page" data-dialog="true" id="start">
+                    <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                        <h1 class="ui-title" aria-level="1">Start</h1>
+                    </div>
+                    
+                    <div role="main" class="ui-content">
+                        <img src="img/Menu1.2-01.png" alt="play" class="img">
+                        <h2>Like to go to OtterSpace?</h2>
+                        <a href="#a"  class="ui-btn ui-shadow ui-corner-all ui-btn-a">sounds ottertastic</a>
+                        <a href="#b" class="ui-btn ui-shadow ui-corner-all ui-btn-a">hell no!</a>
+                    </div>
+                </div>
+
+<!--a-->
+			<div data-role="page" data-dialog="true" id="a">
+                <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                    <h1 class="ui-title" aria-level="1">Fly</h1>
+                </div>
+                <div role="main" class="ui-content">
+                    <video width="100%" controls>
+                        <source src="img/AsteroidenAusweichenNeu.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <h2>Able to find your way to the OtterSide?</h2>
+                    <a href="#aa" class="ui-btn ui-shadow ui-corner-all ui-btn-a">sure</a>
+                    <a href="#ab" class="ui-btn ui-shadow ui-corner-all ui-btn-a">ehhhmmmm....</a>
+                </div>
+            </div>
+        
+<!--aa-->
+        <div data-role="page" data-dialog="true" id="aa">
+           <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                <h1 class="ui-title" aria-level="1">Dangers</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/enemies%20and%20co-01.png" alt="bad" class="img">
+                <h2>Can you get past enemies and asteroids?</h2>
+                <a href="#end" class="ui-btn ui-shadow ui-corner-all ui-btn-a">why not?</a>
+                <a href="#ab" class="ui-btn ui-shadow ui-corner-all ui-btn-a">... rather not</a>
+            </div>
+        </div>
+            
+<!--ab-->
+        <div data-role="page" data-dialog="true" id="ab">
+            <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                <h1 class="ui-title" aria-level="1">Friends</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/fische-01.png" alt="bad" class="img">
+                <h2>Maybe with some help?</h2>
+                <a href="#end" class="ui-btn ui-shadow ui-corner-all ui-btn-a">Ready, set, GOOOOOOOOO</a>
+                <a href="#bb" class="ui-btn ui-shadow ui-corner-all ui-btn-a">Syntax Otter</a>
+            </div>
+        </div>
+            
+<!--b-->
+        <div data-role="page" data-dialog="true" id="b">
+            <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                <h1 class="ui-title" aria-level="1">Fun</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/christmas.png" alt="hollidays" class="img">
+                <h2>Not even if they have ottertastic Hollidays?</h2>
+                <a href="#ab" class="ui-btn ui-shadow ui-corner-all ui-btn-a">"OtterStanding!!"</a>
+                <a href="#bb" class="ui-btn ui-shadow ui-corner-all ui-btn-a">it's time to go</a>
+            </div>
+        </div>
+        
+<!--bb-->
+        <div data-role="page" data-dialog="true" id="bb">
+            <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                <h1 class="ui-title" aria-level="1">Dreams</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/NewHighscore1.2-01.png" alt="king" class="img">
+                <h2>Well, would you be good at being an OtterKing?</h2>
+                <a href="#end" class="ui-btn ui-shadow ui-corner-all ui-btn-a">"Definitely"</a>
+                <a href="#aa" class="ui-btn ui-shadow ui-corner-all ui-btn-a">Guess not...</a>
+            </div>
+        </div>
+
+        
+<!--end-->
+        <div data-role="page" data-dialog="true" id="end">
+            <div data-theme="b" role="banner" class="ui-header ui-bar-b">
+                <h1 class="ui-title" aria-level="1">OtterSpace</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <img src="img/titelbild3-01.png" alt="final" class="img">
+                <h1>Then, you can make it through <a href="#seite2">AnOtteryUniverse!</a></h1>
+            </div>
+        </div>
+     
+	</body>
+</html> 
