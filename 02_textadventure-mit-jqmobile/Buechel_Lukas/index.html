@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="meilenstein2">
+    <meta name="author" content="Lukas Büchel">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="page0">
+  <div data-role="header">
+    <h1>Hallo</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Hy , hier ein kleines Text"Adventure".</p>
+	Ich habe mir mal Mühe gegeben Offiziellen Statements u.s.w zu entsprechen, vergleich doch mal iwe einfach sich der ablauf anhört und dann wie es für dich tatsächlich war.
+   <p><a href="#page1">Viel Spaß^^</a></p>	
+  </div>
+  <div data-role="footer">
+    <h1>Wer Rechtschreib Vehler findet , dem steht es frei sie zu adoptieren</h1>
+  </div>
+</div> 
+<!--erste entscheidungs-->
+<div data-role="page" id="page1">
+  <div data-role="header">
+    <h1>Schule</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Sehr schön , du hast grade die Nachricht bekommen das du die 10te überstanden hast.</p>
+	<p>Sogar gut genug das du dir aussuchen kannst o du nicht noch etwas Zeit dran hängen willst um dein Abi zu machen</p>
+   <p><a href="#dialog1">Abi ist Heute standard , man braucht es für alles und jeder verlangt es , also mach ich´s</a></p>
+	<a href="#dialog2">Fachabi geht schneller und ich kann mich schon auf das Vorbereiten was ich mal machen will</a>
+  </div>
+  <div data-role="footer">
+    <h1>Was wohl wird ?</h1>
+  </div>
+</div> 
+
+<div data-role="page" data-dialog="true" id="dialog1">
+  <div data-role="header">
+    <h1>Abi zeiten</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page2"><p>wer hätte es gedacht Abitur ist ja recht einfach!</p>
+	man lernt eigentlich nur weiter was bis zur 10ten so kam</a>
+  </div>
+</div> 
+<div data-role="page" data-dialog="true" id="dialog2">
+  <div data-role="header">
+    <h1>Fachabi</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page3"><p>Mensch ich hätte gedacht das die Leute hier irgendwie ...naja....smarter währen?</p>
+	manchmal hab ich das Gefühl das wir mehr Zeit damit verbringen den Klassen-Deppen zu bändigen als wirklich was Lernen</a>
+  </div>
+</div> 
+<!--ende entscheidung1-->
+<!---2etnscheidung-->
+<div data-role="page" id="page2">
+  <div data-role="header">
+    <h1>Und nu ?</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Super ABI lief einfacher als gedacht , du hast gute Noten und wie jeder Lehrer die versichert : Die Welt steht dir offen!</p>
+    <p><a href="#dialog3">Ich will Hoch hinaus , meine Lehrer sagen zwar das es anstrengend ist aber es Lohne sich auch : Ergo ab an die Uni </a></p>
+	<a href="#dialog4">Meine Eltern sagen , Ausbildung bringt Sicherheit! und meinen Eltern kann ich Vertrauen</a>
+  </div>
+  <div data-role="footer">
+    <h1>Die Uni</h1>
+  </div>
+</div> 
+<div data-role="page" id="page3">
+  <div data-role="header">
+    <h1>Fachabi</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Irgendwie bin ich echt Entäucht , von Qaulifizierung und Vorbereitung ist nicht viel Geblieben , aber ich hab jetzt das Fachabi und bin auf dem Markt mehr wert</p>
+    <p><a href="#dialog4">Meine Lehrer sagen, Ausbildung bringt Sicherheit! und meinen Lehrern kann ich Vertrauen</a></p>
+	<a href="#dialog5">Ich will jetzt los legen also such ich mir Arbeit genug mit Schule</a>
+  </div>
+  <div data-role="footer">
+    <h1>Qualifizert ?</h1>
+	</div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog3">
+  <div data-role="header">
+    <h1>Hier ist der Weg in die Zukunft</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page4">1000€, 100 Stunden Bafög und X^N Stunden Planung später, tatsäch lich ich darf an die Uni !!!</a>
+  </div>
+</div> 
+<div data-role="page" data-dialog="true" id="dialog4">
+  <div data-role="header">
+    <h1>Der Kampf hat Erfolg!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page5">Das war mal ein Kampf aber tatsächlich hatt dich wer angenommen nun kann die Ausbildung starten</a>
+  </div>
+</div> 
+<div data-role="page" data-dialog="true" id="dialog5">
+  <div data-role="header">
+    <h1>Ich bin mein eigener Herr</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page6">Die Bezahlung ist super , es ist zwar harte Arbeit aber es Lohnt sich !</a>
+  </div>
+</div> 
+<!--ende entscheidung 2-->
+<!--3te entscheidung-->
+<div data-role="page" id="page4">
+  <div data-role="header">
+    <h1>Die UNI</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Die Profs sind ja im durchschnit ganz ok (auch wenn einige sich aufgaben wie "Vector Grafik zu Polok" ausdenken)</p>,einge haben zwar keine Ahnugn wie viel die Verlangen und was für ne Arbeit das ganze ist aber ich arbeite ja an meiner Zukunft! <p> ich ahb  zwar kein Geld weil Bafög echt knapp ist , zeit reicht kaum das ich noch arbeiten könnte aber irgendwie schaffst du das schon. </p>
+    <p><a href="#dialog6">Der Master wartet</a></p>
+	<a href="#dialog7">Ne is genug , ich geh ins job leben</a>
+  </div>
+  <div data-role="footer">
+    <h1>Überlebt !</h1>
+	</div>
+</div>
+<div data-role="page" id="page5">
+  <div data-role="header">
+    <h1>Die Meister sind echt hart, aber die Kollegen reißen es schon rum , wenigstens sind die Rechnungen bezahlt!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Ausbildugns-Jahre sind keine Herren Jahre ,</p> man macht sich kurm , hatt nie Zeit oder ist immer zu geschaft um was zu erldigen aber wenigstens Qualifiziere ich mich und verdien grad genug fürs Leben
+    <p><a href="#dialog7">Ich kann mehr als ich jetzt aufm papier habe , holen wir uns mehr Papiere !</a></p>
+	<a href="#dialog8">Ich kann was ich kann , so ich brauch jetzt Geld und will auch mal ein Leben haben</a>
+  </div>
+  <div data-role="footer">
+    <h1>Weiter, weiter immer weiter</h1>
+	</div>
+</div>
+<div data-role="page" id="page6">
+  <div data-role="header">
+    <h1>Isn´t it easy ? No , not realy</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Langsam mach ich mir sorgen</p>, zwar reicht das Geld aber bald läuft mein Vertrag aus,<p> die Kollegen verdienen alle mehr aber wengistens hab ich was ich hab </p>
+    <a href="#dialog8">Es reicht mir , ich hab schon gearbeitet da reich ich die Bildung halt nach</a>
+	<a href="#dialog9">Es reicht ich werd selber gucken wie ich auskommen kann nie wieder Angestellt!</a>
+  </div>
+  <div data-role="footer">
+    <h1>Zukunft? wirklich?</h1>
+	</div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog6">
+  <div data-role="header">
+    <h1>Master</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page7"><p>Es wird zwar nicht weniger aber ich kann nebenher arbeiten ,</p> also reicht jetzt das Geld grade so... aber die ansprüche werden noch höher Oh gott...</a>
+  </div>
+ </div>
+  <div data-role="page" data-dialog="true" id="dialog7">
+  <div data-role="header">
+    <h1>Meisterschaft</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page8"><p>Es wird zwar nicht weniger aber ich kann nebenher arbeiten</p>, also reicht jetzt das geld grade so... aber die ansprüche werden noch höher Oh gott...</a>
+  </div>
+ </div>
+  <div data-role="page" data-dialog="true" id="dialog8">
+  <div data-role="header">
+    <h1>Geselle endlich</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page9">Tatsächlich ich hab nen Gesellen brief , nun kann man nicht nur arbeiten sonder bekommt auch noch nen fauiren Lohen!</a>
+  </div>
+</div> 
+<div data-role="page" data-dialog="true" id="dialog9">
+  <div data-role="header">
+    <h1>ICh schaffs</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#page10">Yeyy es hatt zwar gedauert aber endlich hat mich wer genommen und glaubt mir das ich was kann , zwar ises nur ne kleine firma das gehlt reicht grade so aer ich bin jetzt ohne so weit wie wer mit ausbildung !</a>
+  </div>
+</div>
+<!--ende entscheidung 3-->
+<!--enscheidung 4-->
+<div data-role="page" id="page7">
+  <div data-role="header">
+    <h1>Ich habs Geschaft!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Tatsächlich , vieleicht nicht in 6 jahren aber wenigstens hab ich jetzt meinen Master</p> ab jetzt gibts für mich nur noch gut bezahlte Jobs,<p> ich muss nur das bischen Bafög zurück zahlen , eventuel n paar rechnungen begleichen aber danach heists Erfolg, Geld, Freizeit ^^</p>
+    <p><a href="#dialog10">Ich werde Professor , hab Jahre lang gesehen das die mehr haben als jeder Student und Anerkennung anhäufen können , endlich zahlt sich das ganze aus </a></p>
+	<a href="#dialog11">Ich habe lange und viel Gelernt , habe Jugend und Lebenszeit ivnestiert jetzt bin ich Qualifizier und die Leute werden auf mich Hören!</a>
+  </div>
+  <div data-role="footer">
+    <h1>Was wohl jetzt kommt ?</h1>
+	</div>
+</div> 
+<div data-role="page" id="page8">
+  <div data-role="header">
+    <h1>Der Hybride weg des Erfolgs</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>So jetzt musste ich mich durch ausbildung und Uni kämpfen aber letztendlich hab ich das maximum an Fertigkeiten und  Qualifikation erlangt</p> , ich ahb ne Meisterbiref und man wir dsich um mich Reißen !
+    <p><a href="#dialog11">Ich nehme eine Führungsposition an , werde erfolgreich und kann mich Jung zu Ruhe setzten</a></p>
+	<a href="#dialog12">ich habe die Fähigkeit alles zu tun , ich werde meine beste Leistung geben und eine Elite unter den Fachkräften sein!</a>
+  </div>
+  <div data-role="footer">
+    <h1>Zweigleißig ? is auch ne möglichkeit</h1>
+	</div>
+</div>
+<div data-role="page" id="page9">
+  <div data-role="header">
+    <h1>Ich bin nun endlich fertig</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>So alles feritg ich kann arbeiten,</p> muss mir keinen Kopf mehr machen darum was ich alles muss und noch kommt ich bin fertig!
+    <p><a href="#dialog12">mit viel Arbeit und Zeit kann ich zur Fachkraft werden , es gäbe zwar schnelleres aber so hab ich wengistens ein leben!</a></p>
+	<a href="#dialog13">ich will nie mehr mit der Personalabteilung streiten! Selbständigkeit das will ich !</a>
+  </div>
+  <div data-role="footer">
+    <h1>na sicher das es einen besten weg gibt ?</h1>
+	</div>
+</div>
+<div data-role="page" id="page10">
+  <div data-role="header">
+    <h1>Mein Weg</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <p>Es ist vieleicht nicht der glatteste weg aber es ist meiner , ich hab mich Qualifizeirt ohne mit dem System zu kämpfen</p>, naja dafür pass ich auch in keins rein aber ich kan tun was ich will!!
+    <p><a href="#dialog13">Meine Fähigkeiten meine entscheidung ! ich bin Selbständig</a></p>
+	<a href="#dialog14">Niemals mehr Krieg mit dem Überleben, ich suche mir ne Stelle , habe ja mittlerweile genug Qualli und dann muss ich mir nie wieder sorgen machen , Gewerkschft , Verträge , Sicherheit danke und tschüß !!</a>
+  </div>
+  <div data-role="footer">
+    <h1>Wenigsten Meine Entscheidung</h1>
+	</div>
+</div>
+<!--ende entschidung4-->
+<!--ergebniss(ebene 5)-->
+<div data-role="page" data-dialog="true" id="dialog10">
+  <div data-role="header">
+    <h1>Ziel erreicht: Professor</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#"><p>Tatsächlich</p>, Jahrelang gelernt ,<p> geschufftet und gespart aber jetzt ist man Prof</p>Man verdient zwar nicht die Welt , jeder greift deine Arbeit an , du hast für deine Arbeit zu leben und aber wenn du gut bist kannst du wengistens das druschnittliche gehalt eines Managers ereichen ,<p> mit ein bischen glück und wenn du die schulden abgeleistet hast aber hey .. du hast...was vor zu weisen  ?</p></a>
+  </div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog11">
+  <div data-role="header">
+    <h1>Ziel ereicht: Managment!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#"><p>Tatsächlich, du bist Manager einer Abteilung/eines kleinen Betriebs!</p>Du verdienst sehr gut , du hast viel vorzuweisen , naja das Privatleben leidet an mehrern stellen jedenfalls wenn man weiter machen möchte und nicht auf dem abstellgleis endet<p> aber du ahst das beste asu dem gemacht was du hattest , naja ...jedenfalls ist dein unterhalt gesichert</p></a>
+  </div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog12">
+  <div data-role="header">
+    <h1>Ziel erreicht:Fachkraft</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#"><p>Ich bin eine Fachkraft ! ich binda s was die wirtscahft oben hällt.</p>Ich verdiene genug um davon n gutes Leben zu haben, ich werde anerkannt und habe den Gipfel dessen was vor mir leigt erreicht.<p> Zwar habe ich keinen weg weiter aber der Punkt an den ich kam  ist wenigstens gut!</p></a>
+  </div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog13">
+  <div data-role="header">
+    <h1>Ziel ereicht: Selbstständigkeit!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#"><p>Ich bin mein eigener Herr!</p>Ich bin zwar nicht so abgesichert wie andere,<p> ich muss zwar hart arbeiten aber kaum einer hat etwas dagegen zu sagen oder kann sagen: ich arbeite härter! naja wennigstens das!</p></a>
+  </div>
+</div>
+<div data-role="page" data-dialog="true" id="dialog14">
+  <div data-role="header">
+    <h1>Ziel erreicht:Langzeit stelle!</h1>
+  </div>
+  <div data-role="main" class="ui-content">
+    <a href="#"><p>Ich hab meine Ruhe !</p> ich habe einen lang Zeit Vertrag, kaum Risiken , das Geld reicht grade so aber ich bin sicher keine Sorgen für mich!<p> ...aber auch keine wege weiter....</p></a>
+	<!--ende-->
+  </div>
+</div>
+</body>
+</html>
