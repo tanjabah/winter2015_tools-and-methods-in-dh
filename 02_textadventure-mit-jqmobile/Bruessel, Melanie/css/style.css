@@ -1,0 +1,46 @@
+body {
+    max-height:1000px;
+}
+.img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	width: 100%;
+    max-width:1000px;
+}
+
+.ui-dialog-contain {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 1000px;
+    margin-top: 10px;
+}
+.social {
+    width: 50px;
+    padding: 50px 50px 50px 50px; 
+}
+.socialdiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.l {
+    width: 30%;
+    float: left;
+}
+.r {
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+.ui-collapsible-set {
+    vertical-align: middle;
+    display: block;
+    clear: both;
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
