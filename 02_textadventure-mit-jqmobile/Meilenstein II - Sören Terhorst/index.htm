@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+	<head>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+		<meta charset="utf-8">
+		<meta name="author" content="Sören Terhorst">
+		<link rel="stylesheet" type="text/css" href="css/jquery.mobile.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" href="themes/meilenstein.css" />
+		<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+		<script src="js/jquery.mobile.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+			<script>
+			$(document).bind('mobileinit',function(){
+			$.mobile.changePage.defaults.changeHash = false;
+			$.mobile.hashListeningEnabled = false;
+			$.mobile.pushStateEnabled = false;
+			});
+			</script> 
+		<script src="js/jquery.mobile.min.js"></script>
+	</head>
+	
+	<div id="wrapper">
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				// Testausgabe
+				//alert("Es funktioniert");
+				
+			});
+		
+		</script>
+		
+		
+		<div data-role="page" id="seite1">
+			<div data-role="header">
+				<h1>Ist dein Passwort sicher?
+					<br>Finde es heraus!</h1>
+			</div>
+			
+			<div data-role="content">
+				<img src="img/fz.png" alt="Fragezeichen">
+				<p>Zu aller erst - denkst du, dass du ein sicheres Passwort hast?</p>
+				<br />
+				<div data-role="controlgroup" data-type="vertical">
+					<a href="#seite2_sicher" class="ui-btn">Ja</a>
+					<a href="#seite2_nichtsicher" class="ui-btn">Ich bin mir nicht sicher</a>
+				</div>
+				<br>
+				<br>
+
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Ja - sicheres Passwort -->
+		<div data-role="page" id="seite2_sicher">
+			<div data-role="header">
+				<h1>Hat es mehr als 10 Zeichen?</h1>
+				<br>
+			</div>
+			<img src="img/1b0.jpg" alt="Zahlen 1-9+0">
+			<p>Ein wichtiger Faktor eines guten, sicheren Passworts ist die Zeichenlänge. Je länger, desto sicherer ist es.</p>
+			<div data-role="controlgroup" data-type="vertical">
+				<a href="#seite3_10+Z" class="ui-btn">Ja</a>
+				<a href="#seite3_bruteforce" class="ui-btn">Nein</a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Nein - keine 10 Zeichen -->
+		<div data-role="page" id="seite3_bruteforce">
+			<div data-role="header">
+				<h1>Dein Passwort hat also keine 10 Zeichen?</h1>
+			</div>
+
+			<div data-role="content">
+				<img src="img/bruteforce.jpg" alt="security">
+				<b>Pass auf!</b> Wenn dein Passwort weniger als 10 Zeichen hat, könnte es sehr anfällig für rabiate Methoden von
+				Hackern sein. Dabei sind vor allem wichtige Daten bedroht. Kriminelle können gerade kurze Passwörter sehr
+				einfach durch Brute Force "erraten", indem ein Programm jegliche mögliche Passwortkombinationen ausprobiert.
+				<br>
+				<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Mehr Informationen</a>
+
+            <div data-role="popup" id="myPopup" class="ui-content">
+                <p>Ein Brute-Force-Angriff stellt einen gewaltsamen Angriff auf einen kryptografischen Algorithmus dar. Das Verfahren probiert systematisch alle möglichen Kombinationen durch, um den Krypto-Algorithmus zu knacken. Dazu werden alle Ziffern, Buchstaben und Leerzeichen bis zu einer maximal Wortlänge ausprobiert. Brute-Force-Angriffe können ebenso auf verschlüsselte Dateien, Nachrichten und Informationen oder auch auf Passwörter angesetzt werden.
+					Damit Brute-Force-Angriffe möglichst zeitintensiv sind, setzen die meisten Verschlüsselungssysteme sehr lange Schlüssel ein. Bei einem 32-Bit-Schlüssel wären es vier Milliarden Möglichkeiten, die die heutigen Personal Computer in Minuten durchprobiert hätten. Entsprechend länger dauert die Ermittlung eines 48-Bit-Schlüssels oder gar eines 64- oder eines 128-Bit-Schlüssels, der nur in mehreren tausend Jahren zu knacken wäre.
+					<p class="Quelle"><a href="http://www.itwissen.info/definition/lexikon/Brute-Force-Angriff-brute-force-attack.html">Quelle: itwissen.info</a>
+				</p>
+			</div>
+				<br>
+				<br>
+				<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+			</div>
+
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Ja - mehr als 10 Zeichen -->
+		<div data-role="page" id="seite3_10+Z">
+			<div data-role="header">
+				<h1>Der erste Schritt zu einem guten
+				<br> Passwort ist damit schon einmal getan!</h1>
+			</div>
+
+			<div data-role="content">
+				<img src="img/verschiedenes.jpg" alt="Zahlen und Sonderzeichen">
+				Ein nächster Faktor eines sicheren Passworts ist aber auch die Nutzung von Zahlen und Sonderzeichen.
+				Mischst du diese Zeichen mit herein? Oder ist dein Passwort nur eine einfache Zeichenkette?
+			</div>
+			<div data-role="controlgroup" data-type="vertical">
+				<a href="#seite3_SZuZ" class="ui-btn">Ich benutze auch Sonderzeichen und Zahlen</a>
+				<a href="#seite3_kSZuZ" class="ui-btn">Mein Passwort besteht nur aus Buchstaben</a>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Ja - auch Sonderzeichen und Zahlen -->
+		<div data-role="page" id="seite3_SZuZ">
+			<div data-role="header">
+				<h1>Super! Nutzung von Sonderzeichen und
+				<br>Zahlen gibt deinem Passwort noch eine
+				<br>größere Zeichenvielfalt</h1>
+			</div>
+
+			<div data-role="content">
+				<img src="img/wechsel.jpg" alt="Wechselpfeile">
+				Wie stehst du zu regelmäßigem Wechsel deiner Passwörter? Achtest du darauf?
+			<div data-role="controlgroup" data-type="vertical">
+				<a href="#seite4_glueckwunsch" class="ui-btn">Ja</a>
+				<a href="#seite4_wechsel" class="ui-btn">Nein</a>
+			</div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Nein - keine Sonderzeichen und Zahlen -->
+		<div data-role="page" id="seite3_kSZuZ">
+			<div data-role="header">
+				<h1>Nutzen von Sonderzeichen und Zahlen ist wichtig!</h1>
+			</div>
+
+			<div data-role="content">
+				<img src="img/verschiedenes.jpg" alt="Zahlen und Sonderzeichen">
+				Je mehr verschiedene Zeichen du in deinen Passwörtern benutzt, desto schwerer wird es für Kriminelle, dein Passwort
+				mit Hilfe von Brute Force zu knacken. Erweitere also die Vielfalt der Zeichen, um ihnen mehr Steine in den Weg zu legen.
+				<br>
+				<a href="#myPopup2" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all">Was ist Brute Force?</a>
+				<br>
+				<br>
+				<br>
+				<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+				<div data-role="popup" id="myPopup2" class="ui-content">
+					<p>Ein Brute-Force-Angriff stellt einen gewaltsamen Angriff auf einen kryptografischen Algorithmus dar. Das Verfahren probiert systematisch alle möglichen Kombinationen durch, um den Krypto-Algorithmus zu knacken. Dazu werden alle Ziffern, Buchstaben und Leerzeichen bis zu einer maximal Wortlänge ausprobiert. Brute-Force-Angriffe können ebenso auf verschlüsselte Dateien, Nachrichten und Informationen oder auch auf Passwörter angesetzt werden.
+						Damit Brute-Force-Angriffe möglichst zeitintensiv sind, setzen die meisten Verschlüsselungssysteme sehr lange Schlüssel ein. Bei einem 32-Bit-Schlüssel wären es vier Milliarden Möglichkeiten, die die heutigen Personal Computer in Minuten durchprobiert hätten. Entsprechend länger dauert die Ermittlung eines 48-Bit-Schlüssels oder gar eines 64- oder eines 128-Bit-Schlüssels, der nur in mehreren tausend Jahren zu knacken wäre.</p>
+					<p class="Quelle"><a href="http://www.itwissen.info/definition/lexikon/Brute-Force-Angriff-brute-force-attack.html">Quelle: itwissen.info</a>
+					</p>
+				</div>
+			</div>
+
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Nein - kein regelmäßiger Wechsel-->
+		<div data-role="page" id="seite4_wechsel">
+			<div data-role="header">
+				<h1>Dauerhaft die gleichen Passwörter?</h1>
+			</div>
+
+			<div data-role="content">
+				<img src="img/hkeks.jpg" alt="halber Keks">
+				Du hast fast alles richtig gemacht. Der letzte Schritt zum sicheren Benutzen des Internets ist das regelmäßige
+				Wechsel der Passwörter. Auch wenn es auf den ersten Blick sicher scheint, so kann es Hackern bereits einige Zeit
+				vor dem eigentlichen Eingriff in die Hände fallen und dich rückläufig schädigen!
+				</div>
+			<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Ja - regelmäßiger Wechsel -->
+		<div data-role="page" id="seite4_glueckwunsch">
+			<div data-role="header">
+				<h1>Du scheinst sehr informiert zu sein!</h1>
+			</div>
+			<div data-role="content">
+				<img src="img/keks.jpg" alt="keks">
+				<b>Toll!</b>
+				<br>Dir scheint der Schutz deiner Daten sehr wichtig zu sein. Achte weiter darauf, dass du deine Passwörter nach den Kriterien erstellst,
+				um zu verhindern, dass diese ergaunert werden können. Nichtsdestotrotz ist der Schutz deines Computers genauso wichtig, weil die Passworterstellung
+				nicht den Datenklau durch Malware, Spyware oder andere Viren verhindert.
+				</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Wahrscheinlich nicht sicher -->
+		<div data-role="page" id="seite2_nichtsicher">
+			<div data-role="header">
+				<h1>Fühlst du dich mit deinem Passwort
+					<br>nicht durch Internetpiraterie bedroht?</h1>
+			</div>
+			<img src="img/angst.jpg" alt="Angst">
+			<p>In den Zeiten, in denen das Internet immer weiter wächst, gibt es natürlich auch mehr Menschen, die anderen Schaden und sich
+				an ihnen bereichern wollen. Du hast keine Angst davor?</p>
+			<div data-role="controlgroup" data-type="vertical">
+				<a href="#seite3_d_intpiraterie" class="ui-btn">Doch</a>
+				<a href="#seite3_n_intpiraterie" class="ui-btn">Nein</a>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Ja - Bedrohung Internetpiraterie -->
+		<div data-role="page" id="seite3_d_intpiraterie">
+			<div data-role="header">
+				<h4>Dann denk nochmal über <br> dein Passwort nach!</h4>
+			</div>
+			<div data-role="content">
+				<img src="img/intpir.jpg" alt="Lego auf Tastatur">
+				<br>Schaue dir die Fragen noch einmal an und ändere dein Passwort so, dass du alle mit <b>Ja</b> beantworten kannst!
+				<br>
+				<br>
+				<br>
+				<br>
+				<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Nein - Bedrohung Internetpiraterie -->
+		<div data-role="page" id="seite3_n_intpiraterie">
+			<div data-role="header">
+				<h4>Du fühlst dich also sicher?</h4>
+			</div>
+			<div data-role="content">
+				<img src="img/pw.jpg" alt="Passwort">
+				Du weißt, dass auch gegenwärtige Daten (sei bspw. Kontodaten, Daten von Onlineshops usw.) betroffen sein können? Es beschränkt sich
+				nicht immer nur auf scheinbar unwichtige Daten.
+				<div data-role="controlgroup" data-type="vertical">
+					<a href="#seite4_d_Bdr" class="ui-btn">Doch</a>
+					<a href="#seite4_n_Bdr" class="ui-btn">Mir egal</a>
+				</div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Doch - Bedrohung Internetpiraterie -->
+		<div data-role="page" id="seite4_d_Bdr">
+			<div data-role="header">
+				<h4>Passwort immer noch unwichtig?</h4>
+			</div>
+			<div data-role="content">
+				<img src="img/schloss.png" alt="Passwort">
+				Immer noch unwichtig, dass das Passwort unwichtig ist? Überleg nochmal - und starte von vorne, um zu erfahren,
+				was ein sicheres Passwort ausmacht. Ansonsten kannst du auch einfach den Browser schließen.
+				<br>
+				<br>
+				<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+
+		<!-- Nein - Bedrohung Internetpiraterie -->
+		<div data-role="page" id="seite4_n_Bdr">
+			<div data-role="header">
+				<h4>Ein ganz unsicherer Weg</h4>
+			</div>
+			<div data-role="content">
+				<img src="img/stop.jpg" alt="Stop">
+				Vielleicht fällt es dir nicht auf, aber Übergriffe auf Accounts können auch auf andere folgern. Wenn du so weiter machst, dann kann
+				es passieren, dass auch du in vielleicht nicht allzu weiter Zukunft zum Opfer von Internetkriminalität wirst.
+				<br>
+				<br>
+				<a data-transition="flip" href="#seite1">Hier</a> geht's wieder zurück zum Anfang. Finde heraus, wie du dein Passwort sicherer machen kannst!</a>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Sören Terhorst</h4>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
+
+
