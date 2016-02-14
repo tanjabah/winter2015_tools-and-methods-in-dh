@@ -1,0 +1,45 @@
+.geteilter-Button {
+    text-align: center;
+}
+
+.kleinerb {
+    width: 125px;
+}
+
+.grosserb {
+    width: 250px;
+}
+
+/*responsives iFrame von http://maddesigns.de/responsive-iframes-2417.html am 14.2.16*/
+img,
+iframe {
+  max-width: 100%;
+}
+
+.youtubevideo {
+    position: relative; 
+    padding-bottom: 56.25%; /* ratio 16x9 */
+    height: 0; 
+    overflow: hidden; 
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.youtubevideo iframe {
+
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+/* ratio 4x3 */
+.youtubevideo.ratio4x3 {
+    padding-bottom: 75%;
+}
+
+p {
+    padding: 0px 5px 5px 5px; 
+}

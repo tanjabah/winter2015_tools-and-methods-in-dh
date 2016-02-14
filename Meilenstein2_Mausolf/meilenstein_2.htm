@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Hier kommt Ihr / Dein Name rein...">
+        <link href="css/jquery.mobile.min.css" rel="stylesheet">
+        
+        <script src="js/jquery.min.js"></script>
+        <script>
+            $(document).bind('mobileinit',function(){
+                $.mobile.changePage.defaults.changeHash = false;
+                $.mobile.hashListeningEnabled = false;
+                $.mobile.pushStateEnabled = false;
+            });
+        </script> 
+        <script src="js/jquery.mobile.min.js"></script>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				// Testausgabe
+				// alert("Es funktioniert");
+				
+			});
+		
+		</script>
+		
+		
+		<div data-role="page" id="anfang">
+            <div data-role="header">
+				<h1>Musikgeschichte</h1>
+            </div>
+			<div data-role="content">
+                <p>Nach einem langen Tag in der Bibliothek bist Du bei der Recherche über die Musik des 18. Jahrhunderts eingeschlafen. Als Du aufwachst ist es schon dunkel und die Kirchenglocke schlägt Mitternacht. Aus der Regalreihe neben Dir hörst Du, wie jemand Harfe spielt und dazu leise summt. Neugierig stehst Du auf, um nachzusehen.
+                <br/>
+                Zwischen den Bücherregalen steht ein fremdartig gekleideter Mann, der Dich begrüßt und sich als der Halbgott Orpheus vorstellt. Er bietet Dir an, Dich auf eine Reise durch die Musikgeschichte mitzunehmen und stellt Dir als Beginn eures Abenteuers zwei Epochen zur Auswahl.</p>
+                <div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#barock">Barock</a><a class="ui-btn kleinerb" href="#klassik">Klassik</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="barock">	
+            <div data-role="header">
+				<h1>Barock</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>	
+			<div data-role="content">
+				<p>Du findest Dich zusammen mit Orpheus auf einem Marktplatz wieder. Orpheus erklärt Dir, dass ihr in Leipzig, der Wirkungsstätte Johann Sebastian Bachs seid und schlägt Dir vor, dem Musiker in der Thomaskirche beim Orgelspielen zu lauschen.
+				<br/>
+                Auf dem Weg zur Kirche werdet ihr von einem Mann angesprochen, der euch in ein Konzert, des aus London angereisten Komponisten Georg Friedrich Händel in seinen Salon einlädt.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#bach">Bach</a><a class="ui-btn kleinerb" href="#haendel">Händel</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="klassik">
+            <div data-role="header">
+				<h1>Klassik</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du findest Dich zusammen mit Orpheus auf einem Marktplatz wieder. Orpheus erklärt Dir, dass ihr in Wien, der musikalischen Hauptstadt der Klassik seid und schlägt vor, die Oper zu besuchen.
+				<br/>
+                Auf dem Weg durch die Stadt siehst Du eine Ankündigung für einen Sonatenabend mit Beethoven am Klavier
+				<br/></p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#mozart">Oper</a><a class="ui-btn kleinerb" href="#beethoven">Sonatenabend</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+		<div data-role="page" id="bach">
+            <div data-role="header">
+				<h1>J.S.Bach</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Ihr lehnt das Angebot des Mannes dankend ab und setzt euren Weg zur Thomaskirche fort.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/rhcpVXpbD4w"></iframe></div>
+				<br/>
+				<p>Nachdem Bach sein Orgelspiel beendet hat schlägt Orpheus vor, die Reise in einer anderen Epoche fortzusetzen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#renaissance">Renaissance</a><a class="ui-btn kleinerb" href="#klassik2">Klassik</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+		<div data-role="page" id="haendel">
+            <div data-role="header">
+				<h1>G.F.Händel</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du magst Kammerorchester lieber als Orgelspiel und überzeugst Orpheus davon, Händels Konzert beizuwohnen.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/9OE5ZaIgD_A"></iframe></div>
+                <br/>
+				<p>Nach dem Ende des Konzerts schlägt Orpheus vor, die Reise in einer anderen Epoche fortzusetzen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#renaissance">Renaissance</a><a class="ui-btn kleinerb" href="#klassik2">Klassik</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="mozart">
+            <div data-role="header">
+				<h1>W.A.Mozart</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du hast Dich entschieden, Orpheus Vorschlag zu folgen und die Wiener Oper zu besuchen. Auf dem Programm steht Mozarts Zauberflöte.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/-quQHNriV-Q"></iframe></div>
+				<br/>
+				<p>Obwohl um euch der Saal tobt, bleibt die Begeisterung für die Sängering bei Dir aus und du bittest Orpheus, eure Reise bald fortzusetzen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#barock2">Barock</a><a class="ui-btn kleinerb" href="#romantik">Romantik</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="beethoven">
+            <div data-role="header">
+				<h1>Ludwig van Beethoven</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du hast Dich für Beethovens Sonatenabend entschieden und nun erwartest Du mit Orpheus gespannt die Ankunft des Komponisten. Als er den Saal betritt begrüßt ihn das Publikum mit begeistertem Applaus.</p>
+				<br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/SrcOcKYQX3c"></iframe></div>
+                <br/>
+				<p>Moch immer beeindruckt von Beethovens Klavierspiel wandert ihr noch einige Zeit in Wien umher, bevor ihr eure Reise fortsetzt.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#barock2">Barock</a><a class="ui-btn kleinerb" href="#romantik">Romantik</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="barock2">
+            <div data-role="header">
+				<h1>Barock</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du findest Dich zusammen mit Orpheus auf einem Marktplatz wieder. Orpheus erklärt Dir, dass ihr in Leipzig, der Wirkungsstätte Johann Sebastian Bachs seid und schlägt Dir vor, dem Musiker in der Thomaskirche beim Orgelspielen zu lauschen.</p>
+				<br/>
+                <p>Auf dem Weg zur Kirche werdet ihr von einem Mann angesprochen, der euch in ein Konzert, des aus London angereisten Komponisten Georg Friedrich Händel in seinen Salon einlädt.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#bach2">Bach</a><a class="ui-btn kleinerb" href="#haendel2">Händel</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+		<div data-role="page" id="klassik2">	
+            <div data-role="header">
+				<h1>Klassik</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<div data-role="content">
+				    <p>Du findest Dich zusammen mit Orpheus auf einem Marktplatz wieder. Orpheus erklärt Dir, dass ihr in Wien, der musikalischen Hauptstadt der Klassik seid und schlägt vor, die Oper zu besuchen.</p>
+				    <br/>
+                    <p>Auf dem Weg durch die Stadt siehst Du eine Ankündigung für einen Sonatenabend mit Beethoven am Klavier.</p>
+				    <br/>
+				    <div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                        <a class="ui-btn kleinerb" href="#mozart2">Oper</a><a class="ui-btn kleinerb" href="#beethoven2">Konzertsaal</a>
+                    </div>
+                </div>
+                <div data-role="footer">
+				    <h4>&copy; Benjamin Mausolf</h4>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="renaissance">
+            <div data-role="header">
+				<h1>Renaissance</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+            </div>
+			<div data-role="content">
+				<p>Die nächste Station auf eurer Reise führt euch ins frühneuzeitliche Florenz, wo Orpheus Dir zwei Vorschläge macht.</p>
+				<br/>
+                <p>Ihr könnt entweder einer Messe Palestrinas im Florentiner Dom beiwohnen, oder im Palazzo Pitti der Medici eine Oper Monteverdis hören.</p>
+                <br/>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#palestrina">Dom</a><a class="ui-btn kleinerb" href="#monteverdi">Palazzo</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+        <div data-role="page" id="romantik">
+            <div data-role="header">
+				<h1>Romantik</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Orpheus hat Dich nach Dresden geführt, wo er Dich zwischen zwei Konzerten wählen lässt.</p>
+				<br/>
+                <p>In der Oper wird <i>Der Freischütz</i> von Carl Maria von Weber gespielt. Die Alternative ist ein Liederabend mit Kompositionen von Schubert im Palast des Kurfürsten von Sachsen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schubert">Liederabend</a><a class="ui-btn kleinerb" href="#weber">Oper</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="bach2">
+            <div data-role="header">
+				<h1>J.S.Bach</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<div data-role="content">
+				<p>Ihr lehnt das Angebot des Mannes dankend ab und setzt euren Weg zur Thomaskirche fort.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/rhcpVXpbD4w"></iframe></div>
+				<br/>
+				<p>Nachdem Bach sein Orgelspiel beendet hat lässt Orpheus Dich ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+        </div>
+        <div data-role="page" id="haendel2">
+            <div data-role="header">
+				<h1>G.F.Händel</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du magst Kammerorchester lieber als Orgelspiel und überzeugst Orpheus davon, Händels Konzert beizuwohnen.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/9OE5ZaIgD_A"></iframe></div>
+                <br/>
+				<p>Nach dem Ende des Konzerts lässt Orpheus Dich ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="mozart2">
+            <div data-role="header">
+				<h1>W.A.Mozart</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du hast Dich entschieden, Orpheus Vorschlag zu folgen und die Wiener Oper zu besuchen. Auf dem Programm steht Mozarts Zauberflöte.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/-quQHNriV-Q"></iframe></div>
+				<br/>
+				<p>Obwohl um euch der Saal tobt, bleibt die Begeisterung für die Sängering bei Dir aus und du bittest Orpheus, eure Reise bald fortzusetzen. Er lässt Dich ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="beethoven2">
+            <div data-role="header">
+				<h1>Ludwig van Beethoven</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Du hast Dich für Beethovens Sonatenabend entschieden und nun erwartest Du mit Orpheus gespannt die Ankunft des Komponisten. Als er den Saal betritt begrüßt ihn das Publikum mit begeistertem Applaus.</p>
+				<br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/SrcOcKYQX3c"></iframe></div>
+                <br/>
+				<p>Moch immer beeindruckt von Beethovens Klavierspiel wandert ihr noch einige Zeit in Wien umher, bevor ihr eure Reise fortsetzt.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="palestrina">
+            <div data-role="header">
+				<h1>Palestrina</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>Nachdem ihr die Kathedrale di Santa Maria del Fiore betreten habt, hört ihr schon die ersten Klänge von Palestrinas Missa de Papae Marcelli.</p>
+				<br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/BRfF7W4El60"></iframe></div>
+                <br/>
+				<p>Die letzten Töne sind gerade verklungen und Orpheus lässt Dich ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="monteverdi">
+            <div data-role="header">
+				<h1>Claudio Monteverdi</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			
+			<div data-role="content">
+                <p>Ihr findet euch in der Gesellschaft der wichigsten Persönlichkeiten von Florenz im Palazzo Pitti wieder, die gemeinsam mit euch der Aufführung von Monteverdis Oper <i>L'Orfeo</i> lauschen werden.</p>
+				<br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/u0qkP1kvEdQ"></iframe></div>
+				<br/>
+                <p>Die letzten Töne sind gerade verklungen und Orpheus lässt Dich ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="schubert">
+            <div data-role="header">
+				<h1>Franz Schubert</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>In einem kleinen Kammermusiksaal präsentiert ein berühmter Dresdner Sänger ausgewählte Lieder und Balladen aus Schuberts Kompositionen.</p>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/ZNT5UTWEAY8"></iframe></div>
+                <p>Ihr habt dem Konzert begeistert zugehört und Orpheus lässt Dich nun ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		</div>
+        <div data-role="page" id="weber">
+            <div data-role="header">
+				<h1>Carl Maria von Weber</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			<div data-role="content">
+				<p>In der berühmten Dresdner Semperoper wird von den besten Musikern der Stadt <i>Der Freischütz</i> aufgeführt.</p>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/ZdMqHNcL6xI"></iframe></div>
+                <p>Das Publikum applaudiert den Musikern begeistert und Orpheus lässt dich nun ein letztes Ziel für eure Reise wählen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                <a class="ui-btn kleinerb" href="#schoenberg">Wien</a><a class="ui-btn kleinerb" href="#gregorianik">Rom</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+        <div data-role="page" id="schoenberg">
+		
+            <div data-role="header">
+				<h1>Arnold Schönberg</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			
+			<div data-role="content">
+				<p>Als letzte Station eurer Reise führt Orpheus Dich ins Wien des 20. Jahrhunderts, wo Arnold Schönberg in einem kleinen Salon gerade eines seiner Klavierstücke vorträgt.</p>
+                <br/>
+                <div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/PKJpIWfEJZs"></iframe></div>
+                <p>Am Ende des Konzerts führt Orpheus Dich zurück in die Bibliothek, von der aus ihr die Reise begonnen habt.</p>
+                <br/>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn grosserb" href="#ende">Reise beenden</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+        <div data-role="page" id="gregorianik">
+		
+            <div data-role="header">
+				<h1>Gregorianik</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			
+			<div data-role="content">
+				<p>Als letzte Station eurer Reise führt Orpheus Dich ins frühmittelalterliche Rom, wo ihr in einer Messe den Gesängen der katholischen Liturgie lauscht.</p>
+				<br/>
+				<div class="youtubevideo ratio4x3"><iframe  width="300" src="https://www.youtube.com/v/wS-ItYEj5_o"></iframe></div>
+                <p>Am Ende des Konzerts führt Orpheus Dich zurück in die Bibliothek, von der aus ihr die Reise begonnen habt.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn grosserb" href="#ende">Reise beenden</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+        <div data-role="page" id="ende">
+		
+            <div data-role="header">
+				<h1>Musikgeschichte</h1>
+                <a href="#" class="ui-btn" data-rel="back">Zurück</a>
+			</div>
+			
+			<div data-role="content">
+				<p>Hoffentlich hat Dir das Spiel gefallen, wenn Du willst kannst Du eine weitere Runde spielen.</p>
+				<div data-role="controlgroup" data-type="horizontal" class="geteilter-Button">
+                    <a class="ui-btn grosserb" href="#anfang">Noch einmal spielen</a>
+                </div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Benjamin Mausolf</h4>
+			</div>
+		
+		</div>
+	</body>
+</html> 
+
+
