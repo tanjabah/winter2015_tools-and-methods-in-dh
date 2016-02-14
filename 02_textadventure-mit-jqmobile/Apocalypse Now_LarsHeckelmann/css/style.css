@@ -1,0 +1,142 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+
+body {
+   
+}
+
+a {
+	font-family: 'Gentium Basic', serif;
+	font-size: 24px;
+}
+
+.fullwidth {
+	background-color:#FF4000;
+	height: 80px;	
+	text-align: center;
+	font-family: 'Gentium Basic', serif;
+	font-size: 9px;
+}
+
+
+
+.align{
+	
+	text-align: center;
+	
+}
+
+
+.col-md-6 {
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #FFF;
+}	
+
+.col-md-5 {
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #FFF;
+}	
+
+.col-md-4 {
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #FFF;
+
+}
+
+.col-md-2 {
+	padding-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+	background-color: #FFF;
+
+}
+
+
+.block {
+	text-align: justify;
+}
+
+
+.klickbild {
+	height: 150px;
+	border: solid;
+}
+
+.klickbild:hover {
+	cursor: pointer;
+	border-color: #FF4000;
+}
+
+.endbild {
+	width: 350px;
+}
+.roadmap {
+	width: 150px;
+}
+
+.steuern_intro {
+	font-size:20px;
+	font-family: 'Gentium Basic', serif;
+}
+.steuern_intro:hover {
+	cursor: pointer;
+	color: #4433EE;
+}
+
+#opt1 {
+	display: none;
+}
+
+#opt2 {
+	display: none;
+}
+
+#opt3 {
+	display: none;
+}
+
+#opt4 {
+	display: none;
+}
+
+#opt5 {
+	display: none;
+}
+
+#opt6 {
+	display: none;
+}
+
+#opt7 {
+	display: none;
+}
+
+#opt8 {
+	display: none;
+}
+
+#opt9 {
+	display: none;
+}
+
+#opt10 {
+	display: none;
+}
+
+#opt11 {
+	display: none;
+}
+
+#opt12 {
+	display: none;
+}
