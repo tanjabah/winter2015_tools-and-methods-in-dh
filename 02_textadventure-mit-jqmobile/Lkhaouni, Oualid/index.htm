@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="author" content="Oualid Lkhaouni">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/jquery.mobile.min.css">
+		<link rel="stylesheet" href="css/themes/tpTheme.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile.min.js"></script>
+		<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+
+
+	</head>
+	
+	<body>
+		
+		<div data-role="page" id="loginPage">
+		
+			<div data-role="header">
+				<h1>Studi-App</h1>
+			</div>
+			
+			<div data-role="content" align="center">
+				<h1 align="center">Die App rund ums Studium!</h1>
+				<h5 align="center">"Das Beste aus dem Studium holen!" - "Wichtige Studieninhalte immer und überall dabei!" - "Die StudentenApp!"</h5>
+
+
+			<div id="logo_image">
+				<img src="css/themes/images/learningIsFun.gif" alt="Image Header">
+			</div>
+
+				<a href="#registrationPage" data-role="button" data-inline="true" data-transition="slide">Los geht's</a>
+			</div>
+		
+			<div data-role="footer" class="ui-footer-fixed">
+				<h4>&copy; Oualid Lkhaouni</h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="registrationPage">
+		
+			<div data-role="header">
+				<a href="#loginPage" data-icon="arrow-l"  data-transition="slide" data-direction="reverse">Zurück</a>
+				<h1>Registrierung</h1>
+				<a href="#mainPage" data-icon="check"  data-transition="flip" onclick="setUserInfos()">Login</a>
+
+			</div>
+			
+			<div data-role="content">
+				<h2 align="center">Noch ein letzter Schritt, bevor du loslegen kannst!...</h2>
+
+				<div class="regContainer">
+					<label for="vorname">Vorname:</label>
+					<input type="text" name="vorname" id="vorname" value="">
+					<label for="nachname">Nachname:</label>
+					<input type="text" name="name" id="nachname" value="">
+					<label for="universitaet">Universität:</label>
+					<input type="text" name="name" id="universitaet" value="">
+
+					<fieldset data-role="controlgroup">
+						<legend>Geschlecht:</legend>
+						<label for="female">Weiblich</label>
+						<input type="radio" name="gender" id="female" value="female">
+						<label for="male">Männlich</label>
+						<input type="radio" name="gender" id="male" value="male">
+
+					</fieldset>
+
+				</div>
+
+			</div>
+
+			<div data-role="footer" class="ui-footer-fixed">
+				<h4>&copy; Oualid Lkhaouni</h4>
+			</div>
+		
+		</div>
+
+
+
+
+		<div data-role="page" id="mainPage">
+
+			<div data-role="panel" id="sideMenu" class="ui-panel-fixed">
+
+				<img id="profileImage" src="css/themes/images/profilePicture.img" >
+
+				<ul data-role="listview" class="ui-listview-inset">
+					<li><a href="#content"  onclick="scrollIntro()">Profil</a></li>
+					<li id="2"><a href="#first"  onclick="scrollFirst()">Fächer</a></li>
+					<li id="3"><a href="#second" onclick="scrollSecond()">Universität</a></li>
+					<li id="4"><a href="#third" onclick="scrollThird()">Karte</a></li>
+					<li id="5"><a href="#loginPage">Logout</a></li>
+				</ul>
+
+			</div>
+
+
+			<div data-role="header" class="ui-header-fixed">
+				<a href="#sideMenu" class="ui-link ui-btn ui-btn-a ui-icon-bars ui-btn-icon-notext ui-btn-inline ui-shadow ui-corner-all ui-first-child"></a>
+				<h1>Studi-App</h1>
+			</div>
+
+
+			<div data-role="content">
+				<div id="intro">
+					<h1><strong>Willkommen!</strong></h1>
+					<h3>Öffne oben links das Menü um vollen Zugriff auf die App zu bekommen</h3>
+
+					<table data-role="table" class="ui-responsive" id="myTable">
+						<thead>
+						<tr>
+							<th data-priority="6">Vorname</th>
+							<th data-priority="1">Nachname</th>
+							<th data-priority="2">Universität</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td id="welcomeVorname"></td>
+							<td id="welcomeNachname"></td>
+							<td id="welcomeUni"></td>
+						</tr>
+
+						</tbody>
+					</table>
+
+				</div>
+				<div id="first">
+					<div id="faecher">
+						<h1><strong>Fächer!</strong></h1><br />
+							Erstelle jetzt eine Übersicht deiner aktuellen Fächer und du hast alles im Blick.
+
+						<input type="text" name="fach" id="fach" data-clear-btn="true">
+						<a class="ui-btn-inline ui-mini" onclick="setFaecherInfos()">Hinzufügen</a>
+
+						<ol id="faecherListe" class="ui-listview topDist" data-role="listview">
+							<li class="ui-li ui-li-static ui-btn-up-c ui-first-child">Mobile App-Entwicklung</li>
+							<li class="ui-li ui-li-static ui-btn-up-c">Analysis III</li>
+						</ol>
+					</div>
+				</div>
+				<div id="second">
+
+
+					<h1>Universität zu Köln.</h1>
+
+					<p>Die Universität zu Köln ist eine Hochschule in Köln mit dem klassischen Fächerspektrum einer Volluniversität. Am 15. Juni 2012 erhielt sie im Rahmen der dritten Hochschul-Exzellenzinitiative von Bund und Ländern den Exzellenzstatus.
+						Die 1388 (nur zwei Jahre nach Heidelberg) gegründete Alte Universität zählte zu den ältesten Universitäten in Europa. Sie wurde allerdings 1798 in der sogenannten Franzosenzeit geschlossen und erst 1919 als „neue Universität zu Köln“ wiedergegründet. Sie sollte nach dem Ersten Weltkrieg und dem Verlust der Kaiser-Wilhelms-Universität zu Straßburg auch deren Tradition fortsetzen und die „deutsche Position am Rhein stärken“.[3] Mit über 49.000 Studierenden im Wintersemester 2014/15 (Haupt- und Nebenhörer, ohne Promotionsstudierende, inkl. Kurzzeitstudierende)[1] ist sie die drittgrößte Universität in Deutschland.</p>
+					<p><a href="https://www.uni-koeln.de/">Hier geht's zur Homepage der Universität zu Köln</a></p>
+				</div>
+				<div id="third">
+					<div id="map">
+
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+			<div data-role="footer" class="ui-footer-fixed">
+				<h4>&copy; Oualid Lkhaouni</h4>
+			</div>
+
+
+		</div>
+
+
+	</body>
+</html> 
+
+

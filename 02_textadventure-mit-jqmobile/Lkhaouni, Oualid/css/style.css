@@ -1,0 +1,52 @@
+#intro,
+#first,
+#second,
+#third
+{
+    height: 500px;
+    text-align: center;
+}
+#intro
+{
+    padding-top: 10%;
+}
+#first,
+#second,
+#third
+{
+    border-top: 1px solid #ccc;
+    padding-top: 100px;
+}
+
+
+#logo-image {
+    height: 80%;
+}
+.regContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 1%;
+}
+#profileImage {
+    height: 30%;
+    width: 50%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+    border: 4px solid #32475B;
+    border-radius: 5px;
+
+}
+#faecher{
+    width:50%;
+    margin-left: 25%;
+}
+.topDist{
+    padding-top: 5%;
+}
+#map {
+    height: 400px;
+}
+#myTable{
+    margin-top: 5%;
+    margin-left: 10%;
+}
