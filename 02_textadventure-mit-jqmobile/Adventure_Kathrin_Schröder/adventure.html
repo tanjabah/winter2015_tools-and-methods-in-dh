@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Safari Adventure</title>
+		<link rel="stylesheet" href="css/styleadventure.css" />
+		<link rel="stylesheet" href="css/advenure.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+		<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+				  crossorigin="anonymous">
+			<link rel="stylesheet" href="http://assets.annotateit.org/annotator/v1.2.10/annotator.min.css">
+			 
+      
+	</head>
+	<body>
+ 
+        
+       <div data-role="page" id="seite1">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+	<br>
+        <div class="row">
+ 			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1" class="ui-btn">Home</a></li></ul>
+					<ul><li><a href="#popupright1" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a></li></ul>
+					<ul><li><a href="#popupright2" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a></li></ul>
+					<ul><li><a href="#popupright3" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a></li></ul>
+					
+					<div data-role="popup" id="popupright1" class="ui-content" >
+						<a href="#popupCloseRight1" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popupright2" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popupright3" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>
+						<div id="leinwand">
+							<canvas  height="300px" width="1000px" id="zeichenbereich"></canvas>
+						</div>
+						<script>
+							var demospace = document.getElementById("zeichenbereich");
+							var context = demospace.getContext("2d");
+							
+							context.font = "23px Arial";
+							context.fillText("Ich bin eine wunderschön anzuschauende horizontale Linie", 10, 30);
+							
+							context.moveTo(500,50);
+							context.lineTo(0,50);
+							context.stroke(); 
+							
+							//Peace-Zeichen: Kreis
+							context.beginPath();
+							context.arc(105,165,60,0,2*Math.PI);
+							context.stroke();
+							//Peace-Zeichen: Linie vertikal
+							context.moveTo(105,105);
+							context.lineTo(105,170);
+							context.stroke(); 
+							//Peace-Zeichen: Linie schräg links
+							context.moveTo(105,170);
+							context.lineTo(65,210);
+							context.stroke(); 
+							//Peace-Zeichen: Linie schräg rechts
+							context.moveTo(105,170);
+							context.lineTo(145,210);
+							context.stroke(); 
+						</script>
+					
+						
+					</p>
+					</div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text">
+					<h2>Willkommen bei <span style="font-style: italic;">Safari Adventure</span></h2>
+					<br>
+					<p>Auf dieser Seite schlüpfst du in die Rolle eines Tierschützers oder einer Tierschützerin, die der Wilderei in Afrika ein Ende setzen will.</p>
+					<p>Aber gib Acht, denn du hast viele Feinde! Die Wilderer sind gefährlich und auch Bauern stellen Fallen auf, um ihr Vieh vor Raubtieren zu schützen.</p>
+					<p>Um das Safari Adventure zu starten, wähle bitte zunächst einen Charakter</p>
+					<br>
+					<img src="images/johnann.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="#seite2a" class="ui-btn" id="auswählbutton">John</a>
+						<a href="#seite2b" class="ui-btn" id="auswählbutton">Ann</a>
+					</div>
+	    
+				
+				</div>
+ 			
+			</div>
+						
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+		 <div data-role="page" id="seite2a">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 			
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1" class="ui-btn">Home</a></li></ul>
+					<ul><li><a href="#popup1" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a></li></ul>
+					<ul><li><a href="#popup2" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a></li></ul>
+					<a href="#popup3" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup1" class="ui-content" >
+						<a href="#popupCloseRight1" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup2" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup3" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p>
+					</div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text1">
+						
+					<p>Hallo John!</p>
+					<br>
+					<p>Du warst bisher zweimal bei einer Safari dabei und dich fasziniert die Welt der Raubtiere. Doch durch Wilderei geht der Bestand immer weiter zurück.</p>
+					<p>Um diese Tradition zu beenden, willst du die Jäger verfolgen und Fotos schießen und somit mehr Aufmerksamkeit auf das Thema zu lenken.</p>
+					<p>Um mit der Reise zu beginnen, gehst du zu einem Verleihgeschäft und suchst dir ein Transportmittel aus.</p>
+					<br>
+					<img src="images/jeepkanu.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+						<a href="#seite3a" class="ui-btn" id="auswählbutton">Jeep</a>
+						<a href="#seite3b" class="ui-btn" id="auswählbutton">Kanu</a>
+					</div>
+
+	    
+				
+				</div>
+ 			
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite2b">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup4" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup5" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup6" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup4" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup5" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup6" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p>
+					</div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text2">
+						
+					<p>Hallo Ann!</p>
+					<br>
+					<p>Du warst bisher zweimal bei einer Safari dabei und dich fasziniert die Welt der Raubtiere. Doch durch Wilderei geht der Bestand immer weiter zurück.</p>
+					<p>Um diese Tradition zu beenden, willst du die Jäger verfolgen und Fotos schießen und somit mehr Aufmerksamkeit auf das Thema zu lenken.</p>
+					<p>Um mit der Reise zu beginnen, gehst du zu einem Verleihgeschäft und suchst dir ein Transportmittel aus.</p>
+					<br>
+					<img src="images/kanuflug.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite3b" class="ui-btn"id="auswählbutton">Kanu</a>
+			<a href="#seite3c" class="ui-btn"id="auswählbutton">Flugzeug</a>
+			</div>
+
+	    
+				
+				</div>
+ 			
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite3a">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup7" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup8" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup9" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup7" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup8" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup9" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text3">
+						
+					<p>Du hast dich für einen Jeep entschieden.</p>
+					<p>Da es in der Wildnis sehr gefährlich werden kann, werden bei dem Verleihgeschäft auch Gewehre angeboten.</p>
+					<p>Leihst du dir zur Sicherheit eins aus?</p>
+					<br>
+					<img src="images/kgewehr.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite4a" class="ui-btn"id="auswählbutton">Gewehr</a>
+			<a href="#seite4b" class="ui-btn"id="auswählbutton">Kein Gewehr</a>
+			</div>
+
+	    
+				
+				</div>
+ 			
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite3b">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup10" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup11" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup12" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup10" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup11" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup12" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text4">
+						
+					<p>Du hast dich für ein Kanu entschieden.</p>
+					<p>Da es in der Wildnis sehr gefährlich werden kann, werden bei dem Verleihgeschäft auch Gewehre angeboten.</p>
+					<p>Leihst du dir zur Sicherheit eins aus?</p>
+					<br>
+					<img src="images/kgewehr2.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite4b" class="ui-btn"id="auswählbutton">Kein Gewehr</a>
+			<a href="#seite4c" class="ui-btn"id="auswählbutton">Gewehr</a>
+			</div>
+
+	    
+				
+				</div>
+ 			
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite3c">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup13" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup14" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup15" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup13" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup14" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup15" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text5">
+						
+					<p>Du hast dich für ein Flugzeug entschieden.</p>
+					<p>Da es in der Wildnis sehr gefährlich werden kann, werden bei dem Verleihgeschäft auch Gewehre angeboten.</p>
+					<p>Leihst du dir zur Sicherheit eins aus?</p>
+					<br>
+					<img src="images/kgewehr.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite4c" class="ui-btn"id="auswählbutton">Gewehr</a>
+			<a href="#seite4d" class="ui-btn"id="auswählbutton">Kein Gewehr</a>
+			</div>
+				
+				</div>
+ 			</div>
+		</div>
+		
+<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite4a">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup16" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup17" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup18" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup16" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup17" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup18" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text6">
+						
+					<p> Du machst dich nun auf den Weg und überlegst welche Richtung du einschlagen sollst.</p>
+					<p>Du hast gehört, dass in der Nähe Elefanten und Giraffen gesehen worden sind.</p>
+					<br>
+					<img src="images/elegiraffe.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite5a" class="ui-btn"id="auswählbutton">Elefanten</a>
+			<a href="#seite5b" class="ui-btn"id="auswählbutton">Giraffen</a>
+			</div>
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite4b">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup19" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup20" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup21" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup19" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup20" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup21" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text7">
+						
+					<p> Du machst dich nun auf den Weg und überlegst welche Richtung du einschlagen sollst.</p>
+					<p>Du hast gehört, dass in der Nähe Giraffen und Krokodile gesehen worden sind.</p>
+					<br>
+					<img src="images/giraffekroko.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite5b" class="ui-btn"id="auswählbutton">Giraffen</a>
+			<a href="#seite5c" class="ui-btn"id="auswählbutton">Krokodile</a>
+			</div>
+
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite4c">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup22" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup23" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup24" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup22" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup23" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup24" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text8">
+						
+					<p> Du machst dich nun auf den Weg und überlegst welche Richtung du einschlagen sollst.</p>
+					<p>Du hast gehört, dass in der Nähe Krokodile und Zebras gesehen worden sind.</p>
+					<br>
+					<img src="images/krokozebra.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite5c" class="ui-btn"id="auswählbutton">Krokodile</a>
+			<a href="#seite5d" class="ui-btn"id="auswählbutton">Zebras</a>
+			</div>
+			</div>
+ 		</div>
+	</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite4d">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup25" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup26" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup27" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup25" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup26" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup27" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text9">
+						
+					<p> Du machst dich nun auf den Weg und überlegst welche Richtung du einschlagen sollst.</p>
+					<p>Du hast gehört, dass in der Nähe Zebras und Nashörner gesehen worden sind.</p>
+					<br>
+					<img src="images/zebranashorn.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite5d" class="ui-btn"id="auswählbutton">Zebras</a>
+			<a href="#seite5e" class="ui-btn"id="auswählbutton">Nashörner</a>
+			</div>
+
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite5a">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup28" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup29" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup30" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup28" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup29" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup30" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text10">
+						
+					<p>Bei den Elefanten angekommen,versteckst du dich hinter einem Busch und beobachtest die Tiere.</p>
+					<p>Plötzlich tauchen drei Gestalten aus den Büschen gegenüber auf und nähern sich mit Gewehren in den Händen den Tieren.</p>
+					<p>Während du überlegst was zu tun ist, trittst du mit einem Knacken auf einen Ast. Die Wilderer werden aufmerksam, drehen sich in deine Richtung und kommen deinem Versteck entgegen.</p>
+					<br>
+					<img src="images/ruhigtourist.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite6a" class="ui-btn"id="auswählbutton">Versteckt bleiben</a>
+			<a href="#seite6b" class="ui-btn"id="auswählbutton">Als Tourist ausgeben</a>
+			</div>
+				</div>
+			</div>
+		</div>
+		
+<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite5b">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup31" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup32" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup33" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup31" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup32" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup33" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text11">
+			   
+					<p>Bei den Giraffen angekommen,versteckst du dich hinter einem Busch und beobachtest die Tiere.</p>
+					<p>Plötzlich tauchen drei Gestalten aus den Büschen gegenüber auf und nähern sich mit Gewehren in den Händen den Tieren.</p>
+					<p>Während du überlegst was zu tun ist, trittst du mit einem Knacken auf einen Ast. Die Wilderer werden aufmerksam, drehen sich in deine Richtung und kommen deinem Versteck entgegen.</p>
+					<br>
+					<img src="images/touristflucht.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite6b" class="ui-btn"id="auswählbutton">Als Tourist ausgeben</a>
+			<a href="#seite6c" class="ui-btn"id="auswählbutton">Flüchten</a>
+			</div>
+
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite5c">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup34" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup35" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup36" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup34" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup35" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup36" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text12">
+			   			
+					<p>Bei den Krokodilen angekommen,versteckst du dich hinter einem Busch und beobachtest die Tiere.</p>
+					<p>Plötzlich tauchen drei Gestalten aus den Büschen gegenüber auf und nähern sich mit Gewehren in den Händen den Tieren.</p>
+					<p>Während du überlegst was zu tun ist, trittst du mit einem Knacken auf einen Ast. Die Wilderer werden aufmerksam, drehen sich in deine Richtung und kommen deinem Versteck entgegen.</p>
+					<br>
+					<img src="images/fluchtruhig.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite6c" class="ui-btn"id="auswählbutton">Flüchten</a>
+			<a href="#seite6d" class="ui-btn"id="auswählbutton">Versteckt bleiben</a>
+			</div>
+				
+				</div>
+ 			
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite5d">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup37" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup38" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup39" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup37" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup38" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup39" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text21">
+						
+					<p>Bei den Zebras angekommen,versteckst du dich hinter einem Busch und beobachtest die Tiere.</p>
+					<p>Plötzlich tauchen drei Gestalten aus den Büschen gegenüber auf und nähern sich mit Gewehren in den Händen den Tieren.</p>
+					<p>Während du überlegst was zu tun ist, trittst du mit einem Knacken auf einen Ast. Die Wilderer werden aufmerksam, drehen sich in deine Richtung und kommen deinem Versteck entgegen.</p>
+					<br>
+					<img src="images/ruhigtourist.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite6d" class="ui-btn"id="auswählbutton">Versteckt bleiben</a>
+			<a href="#seite6e" class="ui-btn"id="auswählbutton">Als Tourist ausgeben</a>
+			</div>
+
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ <div data-role="page" id="seite5e">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+		<hr>
+		
+		<br>
+        <div class="row">
+ 
+			<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup40" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup41" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup42" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup40" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup41" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup42" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+			
+			<div data role="content" class="right">	
+            
+ 
+               <div class="col-md-5 col-md-offset-3" id="text13">
+						
+					<p>Bei den Nashörnern angekommen,versteckst du dich hinter einem Busch und beobachtest die Tiere.</p>
+					<p>Plötzlich tauchen drei Gestalten aus den Büschen gegenüber auf und nähern sich mit Gewehren in den Händen den Tieren.</p>
+					<p>Während du überlegst was zu tun ist, trittst du mit einem Knacken auf einen Ast. Die Wilderer werden aufmerksam, drehen sich in deine Richtung und kommen deinem Versteck entgegen.</p>
+					<br>
+					<img src="images/touristflucht.jpg" alt="img" id="img"></img>
+					<br>
+					<div data-role="controlgroup" data-type="horizontal">
+			<a href="#seite6e" class="ui-btn"id="auswählbutton">Als Tourist ausgeben</a>
+			<a href="#seite6f" class="ui-btn"id="auswählbutton">Flüchten</a>
+			</div>
+
+				</div>
+			</div>
+		</div>
+		
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	
+</div>
+
+ 
+		<div data-role="page" id="seite6a">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+		
+		<br>
+		 <div class="row">
+		
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup43" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup44" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup45" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup43" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup44" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup45" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+		<div data role="content" class=" right">
+			<div class="col-md-5 col-md-offset-3" id="text14">
+		
+				<p> Du harrst weiter in deinem Versteck aus und hast Glück. Da du keine weiteren Geräusche von dir gibst, kehren die Wilderer um und wenden sich wieder den Tieren zu.</p>
+				<p>Durch dein Versteck beobachtest du weiter das Geschehen. Die Wilderer kannst du zwar ohne Lebensgefahr nicht aufhalten, aber du machst viele wertvolle Bilder..</p>
+				<p>Nachdem die Wilderer fort sind, fährst du zurück und veröffentlichst die Bilder mit den Gesichtern der Wilderer. Diese werden festgenommen und das Thema Großwildjagd neu diskutiert.</p>
+				<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+			</div>	
+		</div>
+		</div>
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+		</div>
+		
+		<div data-role="page" id="seite6b">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+		
+			<br>	
+	<div class="row">
+				
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup46" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup47" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup48" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup46" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup47" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup48" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+		<div data role="content" class=" right">
+			<div class="col-md-5 col-md-offset-3" id="text15">
+				<p>Du kommst aus deinem Versteck und gibst dich gegenüber den Wilderern als Tourist aus.</p>
+				<p>Diese bleiben misstrauisch und zwingen dich deine Kamera abzugeben. Widerwillig kommst du der Aufforderung nach und gibst die Kamera her.</p>
+				<p>Mit zwei Schüssen zerstören sie deine Kamera.</p>
+				<p>Da du dir aber die Gesichter gut gemerkt hast, kannst du die Polizei mit Phantombildern bei der Suche unterstützen.</p>
+				<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+		</div>
+	
+		<div data-role="page" id="seite6c">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+	
+			<br>
+	 <div class="row">
+		
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup49" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup50" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup51" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup49" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup50" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup51" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+		<div data role="content" class=" right">
+			<div class="col-md-5 col-md-offset-3" id="text16">
+				<p>Kurzerhand entscheidest du dich dazu zu fliehen. Kopfüber stürzt du aus dem Gebüsch und versucht so schnell wie möglich zu deinem Jeep zu gelangen und zu entkommen. </p>
+				<p>Doch deine Reifen werden von den Schüssen getroffen und die Wilderer lassen dich mitten in der Wildnis zurück.</p>
+				<p>Ohne Schutz irrst du umher, bis du schließlich von weitem eine Safari-Gruppe erkennst und sie dich mit zurück nehmen. Im Jeep erblickst du aus der Ferne einen Tiger im Gebüsch lauern...</p>
+				<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+		</div>
+		
+		<div data-role="page" id="seite6d">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+		
+			<br>
+	 <div class="row">
+		
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup52" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup53" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup54" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup52" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup53" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup54" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p>
+					</div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+		<div data role="content" class=" right">
+			<div class="col-md-5 col-md-offset-3" id="text17">
+				<p> Du harrst weiter in deinem Versteck aus und hast Glück. Da du keine weiteren Geräusche von dir gibst, kehren die Wilderer um und wenden sich wieder den Tieren zu.</p>
+				<p>Durch dein Versteck beobachtest du weiter das Geschehen. Die Wilderer kannst du zwar ohne Lebensgefahr nicht aufhalten, aber du machst viele wertvolle Bilder..</p>
+				<p>Nachdem die Wilderer fort sind, fährst du zurück und veröffentlichst die Bilder mit den Gesichtern der Wilderer. Diese werden festgenommen und das Thema Großwildjagd neu diskutiert.</p>
+				<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+			</div>
+		</div>
+	</div>
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+		</div>
+		
+	<div data-role="page" id="seite6e">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+		
+			<br>
+	 <div class="row">	
+		
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup55" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup56" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup57" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup55" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup56" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup57" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+			<div data role="content" class=" right">
+				<div class="col-md-5 col-md-offset-3" id="text18">
+					<p>Du kommst aus deinem Versteck und gibst dich gegenüber den Wilderern als Tourist aus.</p>
+					<p>Diese bleiben misstrauisch und zwingen dich deine Kamera abzugeben. Widerwillig kommst du der Aufforderung nach und gibst die Kamera her.</p>
+					<p>Mit zwei Schüssen zerstören sie deine Kamera.</p>
+					<p>Da du dir aber die Gesichter gut gemerkt hast, kannst du die Polizei mit Phantombildern bei der Suche unterstützen.</p>
+					<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+				</div>
+			</div>
+			
+		</div>	
+		<div data-role="footer" class="footer">
+			&copy; Kathrin Schröder
+		</div>
+		
+	</div>
+		
+	<div data-role="page" id="seite6f">
+		<img src="images/logo.jpg" alt="logo" id="logo"></img>
+			<hr>
+		
+			<br>
+	 <div class="row">	
+		
+		<div data role="content" class="left">
+				<br>
+				<div data-role="navbar">
+					<ul><li><a href="#seite1"class="ui-btn">Home</a></li></ul>
+					<a href="#popup58" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold; box-shadow:none; margin-top: 13px;">Hintergrundinformationen</a>
+					<a href="#popup59" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Kommentare</a>
+					<a href="#popup60" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" style="width:220px; height:35px; font-size:13px; border-radius:1em; font-weight:bold;  box-shadow:none; margin-top: 13px;">Zeichnung mit Canvas</a>
+					
+					<div data-role="popup" id="popup58" class="ui-content" >
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+							<h4>Hintergrundinformationen</h4>
+							<div class="scrollbox">
+							<p>Zehntausende von Elefanten und hunderte von Nashörnern werden jährlich grausam abgeschlachtet, die Wilderei grassiert wie nie zuvor. Mit einer weltweiten Aktion hat der WWF den Kampf gegen das Verbrechen aufgenommen. </p>
+							<p>Vor allem in Afrika spielen sich schreckliche Szenen ab: Noch nie mussten so viele Elefanten und Nashörner wegen ihrer Stoßzähne und Hörner sterben wie in den letzten Jahren. Laut der Datenbank für Elefantenhandel ETIS war 2011 mit 38,5 Tonnen ein Rekordjahr für Elfenbeinschmuggel – ein Trend der sich auch 2012 und 2013 fortsetzte. 2013 wurden über 41 Tonnen Elfenbein in Großbeschlagnahmungen beschlagnahmt. Jedoch ist unklar, ob dies verbesserte Kontrollen oder einen Anstieg in der geschmuggelten Menge reflektiert.</p>
+							<p>Doch das ist nur die Spitze des Eisbergs, die Dunkelziffer ist viel höher. Schätzungen zufolge wurden 2012 22.000 Elefanten in Afrika gewildert. Bei dieser Rate könnte der Kontinent 20 Prozent seiner Elefanten innerhalb der nächsten zehn Jahre verlieren. Noch dramatischer ist die Lage bei den Nashörnern. Die Wilderei hat in Südafrika zwischen 2007 und 2014 um mehr als 8000 Prozent zugenommen. Allein 2014 wurden über 1200 Tiere getötet.</p>
+							<p>Die Folgen für die Tierarten sind fatal: In Vietnam wurde das Java-Nashorn vermutlich schon 2010 von Wilderern ausgerottet. Den afrikanischen Nashörnern droht das gleiche Schicksal. Die Elefanten Population in Zentralafrika hat sich in nur zwölf Jahren zwischen 1995 bis 2007 in den untersuchten Gebieten mehr als halbiert. Jetzt ist es Zeit zum Handeln! </p>
+							<p>Die Hörner und das Elfenbein gehen illegal vor allem nach Asien. Die explosionshafte Zunahme der Wilderei ist eine Folge der ständig zunehmenden Nachfrage. Nashorn-Pulver wird dort mit Gold aufgewogen, die Stoßzähne eines Elefanten bringen mehrere zehntausend Euro. Bei dem blutigen Geschäft mit Nashorn und Elfenbein sind internationale Verbrechersyndikate beteiligt. Der Gesamtwert des illegalen Handels mit Arten aus der Wildnis wird auf mindestens acht Milliarden Euro pro Jahr geschätzt. Wilderei und Schmuggel gehören zu den fünf einträglichsten Sparten der internationalen Kriminalität - vergleichbar mit Waffen-, Drogen- und Menschenhandel. Bestraft wird von den Tätern kaum jemand, und wenn, dann häufig zu milde. </p>
+							<p>Mit dem Geld finanzieren Verbrecherorganisationen sogar lokale Konflikte, vor allem in Zentralafrika. Wilderei ist nicht nur ein Verbrechen an der Natur, ganze Staatengebilde werden destabilisiert.</p>
+							<p>Die weltweite Kampagne hat in den vergangenen Monaten viel dazu beigetragen, dass Regierungen in Afrika, Thailand, China, Vietnam und die Vereinten Nationen, Wilderei und den illegalen Handel mit Wildtieren endlich als erhebliche Bedrohung ansehen und erste Bekämpfungsmaßnahmen eingeleitet haben. Ohne mehr Kontrollen, mehr Prozesse und höhere Strafen wird das Gemetzel unvermindert weitergehen. Schärfere Gesetze und Strafverfolgung werden hingegen Wilderei, Handel und Nachfrage erheblich reduzieren helfen.  </p>
+							<p>Die Weichen fürs Handeln sind gestellt und jetzt werden wir am Ball bleiben, ob Zusagen und Versprechen auch in die Tat umgesetzt werden. Stoppt das Mordsgeschäft! Gemeinsam gegen die Wildtiermafia.</p>
+							<br>
+							<p>Quelle: WWF - Online unter: http://www.wwf.de/themen-projekte/weitere-artenschutzthemen/wilderei/stoppt-das-mordsgeschaeft/</p>
+						</div>
+					</div>
+					<div data-role="popup" id="popup59" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>Wenn du einen Kommentar hinterlassen möchtest, dann markiere einfach eine Textstelle und leg los.</p>
+					</div>
+					<div data-role="popup" id="popup60" class="ui-content">
+						<a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+					<p>siehe <a href="file:///C:/Users/Kathrin/Desktop/Uni/WS%2015-16/IT-Zertifikat/jQueryMobile/Adventure/adventure.html#&ui-state=dialog">Home</a></p></div>
+					<br>
+					<ul><li><input type="search" name="search" id="search-basic" value="" /></li></ul>
+				</div>	
+			</div>
+		
+		<div data role="content" class=" right">
+			<div class="col-md-5 col-md-offset-3" id="text19">
+				<p>Kurzerhand entscheidest du dich dazu zu fliehen. Kopfüber stürzt du aus dem Gebüsch und versucht so schnell wie möglich zu deinem Jeep zu gelangen und zu entkommen. </p>
+				<p>Doch deine Reifen werden von den Schüssen getroffen und die Wilderer lassen dich mitten in der Wildnis zurück.</p>
+				<p>Ohne Schutz irrst du umher, bis du schließlich von weitem eine Safari-Gruppe erkennst und sie dich mit zurück nehmen. Im Jeep erblickst du aus der Ferne einen Tiger im Gebüsch lauern...</p>
+				<br>
+					<img src="images/ende.jpg" alt="img" id="img"></img>
+				<br>
+			</div>
+		</div>
+	</div>	
+	<div data-role="footer" class="footer">
+		&copy; Kathrin Schröder
+	</div>
+		
+	</div>
+	
+	
+        <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+                crossorigin="anonymous"></script>
+        <script src="http://assets.annotateit.org/annotator/v1.2.10/annotator-full.min.js"></script>
+        <script src="js/annotator.offline.min.js"></script>
+		<script src="js/modernizr-custom.js"></script>
+					
+ 
+        <script>
+            // Start Annotator.js
+            var text = $('#text').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text.annotator("addPlugin", "Offline");
+ 
+		// Start Annotator.js
+            var text = $('#text').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text2 = $('#text2').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text2.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text3 = $('#text3').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text3.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text4 = $('#text4').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text4.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text5 = $('#text5').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text5.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text7 = $('#text7').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text7.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text8 = $('#text8').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text8.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text9 = $('#text9').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text9.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text10 = $('#text10').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text10.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text11 = $('#text11').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text11.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text12 = $('#text12').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text12.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text13 = $('#text13').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text13.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text14 = $('#text14').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text14.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text15 = $('#text15').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text15.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text16 = $('#text16').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text16.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text17 = $('#text17').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text17.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text18 = $('#text18').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text18.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text19 = $('#text19').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text19.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text20 = $('#text20').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text20.annotator("addPlugin", "Offline");
+			
+			// Start Annotator.js
+            var text21 = $('#text21').annotator();
+            // Start offline storage plugin (has to be downloaded from https://github.com/aron/annotator.offline.js/downloads)
+            text21.annotator("addPlugin", "Offline");
+			
+			
+ 
+        </script>
+	</body>
+</html>
