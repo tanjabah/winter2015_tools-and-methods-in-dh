@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta name="author" content="Matthias Schaar">
+		<link rel="stylesheet" href="css/jquery.mobile.min.css">
+		<link rel="stylesheet" href="css/themes/brown.css" />
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- ^^ alternates Farbschema selbst entwerfen auf http://themeroller.jquerymobile.com/ -->
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.mobile.min.js"></script>
+		
+	</head>
+	
+	<body>
+		
+		<script>
+			
+			$(document).ready(function() {
+			
+				// Begrüßung
+				alert("Hallo! Herzlich willkommen zu diesem kleinen Textadventure. Viel Spaß!");
+				
+			});
+		
+		</script>
+		
+		
+		<div data-role="page" id="seite1">
+		
+			<div data-role="header">
+				<h1>Feierabend mit Hindernissen</h1>
+			</div>
+			
+			<div data-role="content">
+				<img class="ui-corner-all" width="400px" src="img/01_buero400x266px.jpg" title="Büro am Abend" alt="Büro am Abend">
+				<p>
+				"Gäähn" 19:58 Uhr. Der Tag ist bald vorbei, im Büro bist du wie immer der letzte.
+				<p>Es ist schon dunkel draußen, wird Zeit zu gehen. 
+				<p>Nun, fährst du direkt mit dem Auto nach Hause oder gehst du zu Fuß und trinkst noch ein Bier in deiner Stammkneipe?
+				<br />
+				
+				<div class="ui-grid-a">
+					<div class="ui-block-a">Du gehst <a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-home" data-transition="slideup" href="#seite2">nach Hause.</a></div>
+					<div class="ui-block-b">Du gehst <a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-r" data-transition="slideup" href="#vorderbar">zur Bar.</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="seite2">
+		
+			<div data-role="header">
+				<h1>Schnell nach Hause?</h1>
+			</div>
+			
+			<div data-role="content">
+				<img class="ui-corner-all" width="400px" src="img/02_auto400x300px.jpg" title="Am Steuer" alt="Am Steuer">
+				<p>
+				Gemütlich fährst du durch die Straßen, es ist kaum was los.
+				<p>Die Rush Hour ist vorbei, so gelangst du wirklich sehr schnell nach Hause. 
+				<p>Eigentlich wäre dann doch noch Zeit für ein paar Bier. Aber dann müsstest du angetrunken noch Auto fahren!! :o
+				<br />
+				<div class="ui-grid-a">
+					<div class="ui-block-a">Du riskierst es, später betrunken fahren zu müssen und biegst ab in Richtung 
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-r" data-transition="slideup" href="#vorderbar">Bar</a></div>
+				<div class="ui-block-b">Du fährst doch lieber ohne Umweg <a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-home" data-transition="slideup" href="#zuhause">nach Hause</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+				<div data-role="page" id="zuhause">
+		
+			<div data-role="header">
+				<h1>Zuhause ist es am schönsten</h1>
+			</div>
+			
+			<div data-role="content">
+				<img class="ui-corner-all" width="400px" src="img/02b_zuhause400x267.jpg" title="Zuhause" alt="Zuhause">
+				<p>Du willst wirklich ohne Umweg nach Hause?
+				Im Leben muss man manchmal Umwege gehen, um wichtige Erfahrungen zu machen. Schonmal darüber nachgedacht, dass du auch mit Bus und Bahn fahren kannst?
+				<p>Du verbringst den ganzen Tag bis spät abends im Büro, da wäre das ein oder andere Erlebnis nach Feierabend doch eine gute Abwechslung (...und außerdem verpasst du die Hauptstory des Spiels)!
+				<p>Aber es ist deine Entscheidung. Vielleicht kommt ja auch was gutes im Fernsehen.
+				<br />
+				<div class="ui-grid-a">
+					<div class="ui-block-a">Falls du doch kein Langweiler sein willst, versuchs doch morgen einfach 
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-arrow-r" data-transition="slideup" href="#seite1">nochmal!</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="vorderbar">
+		
+			<div data-role="header">
+				<h1>Die Bar</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/03_vorderkneipe400x271px.jpg" title="Vor der Bar" alt="Vor der Bar">
+				<p>
+				Da ist sie, die traditionelle Altbier-Kneipe "Zum Kölschen Leder" - Der Ort vieler Begegnungen, hier fühlt man sich wohl.
+				<p> Den Trubel drinnen kann man schon von außen hören. Hier ist immer was los.</p>
+				<br />
+				<p>Du willst gerade die Tür öffnen, da fliegt sie dir entgegen! Zwei deutlich betrunkene Kerle kommen dir lauthals streitend entgegen.
+				<p>Der eine packt den anderen am Kragen und macht ihm ernsthafte Drohungen. Du verstehst nur etwas von "Freundin" und "Rübe".
+				<p>Du drehst dich zu ihnen um, da sagt der eine: "Hey, was guckste so blöd?"</p>
+				<br />
+				<div class="ui-grid-a">
+					<div class="ui-block-a">Er ist ziemlich sauer und muskulös dazu. Du gehst lieber ohne was zu sagen
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-carat-u" data-transition="flip" data-rel="dialog" href="#inderbar">rein in die Bar</a></div>
+				<div class="ui-block-a">Du mischst dich in den Streit ein und
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-comment" data-transition="slideup" href="#streit">versuchst zu schlichten.</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="inderbar">
+		
+			<div data-role="header">
+				<h1>In der Kneipe</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/04_inderkneipe400x267px.jpg" title="In der Kneipe" alt="In der Kneipe">
+				<p>Puh, dieser Typ war eindeutig zu aggressiv. Jetzt erstmal entspannen.
+				<p>Aber ach, was ist das denn? Geschlossene Gesellschaft?</p>
+				<p>Oha, dann musst du wohl wieder raus zu den netten Gesellen...</p>
+				
+				<br />
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-forward" data-transition="flip" href="#streit">wieder nach draußen</a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+
+		<div data-role="page" id="streit">
+		
+			<div data-role="header">
+				<h1>Ärger angesagt</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/05_streit1400x286px.jpg" title="Ärger angesagt" alt="Ärger angesagt">
+				<p>
+				Der böse Typ schaut dich aggressiv an.
+				Du erwiederst den Blick auffordernd: "Was hat er dir denn getan?"
+				<p>Er antwortet in Rage: "Dieser Sch**ßkerl hat meine Freundin angebaggert - und dafür wird er jetzt bezahlen!"</p>
+				<p>"...aber wenn du dich einmischst, kannste auch was erleben!"</p>
+				<p> Er hebt die Faust.</p>
+				<br />
+				<div class="ui-grid-a">
+				<div class="ui-block-a">Du wirst nervös, aber <a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="slideup" href="#handy">springst zurück</a></div>
+				<div class="ui-block-b">Du wirst wütend und <a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-user" data-transition="flip" data-rel="dialog" href="#kampf">schlägst zurück</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+		<div data-role="page" id="handy">
+		
+			<div data-role="header">
+				<h1>Konfrontation?</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/06_telefon400x267px.jpg" title="Telefon" alt="Telefon">
+				<p>
+				Dem Betrunkenen bist du gerade noch flink genug ausgewichen.
+				<p>Jetzt heißt es klug handeln.</p>
+				<br />
+				Du zückst schnell dein Mobiltelefon aus der Tasche und
+				<div class="ui-grid-a">
+				<div class="ui-block-a"><a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-phone" data-transition="slideup" href="#polizei">rufst die Polizei</a></div>
+				<div class="ui-block-a"><a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-eye" data-transition="flip" data-rel="dialog" href="#kampf">benutzst es als Waffe</a></div>
+				</div>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+
+		<div data-role="page" id="kampf">
+		
+			<div data-role="header">
+				<h1>Kurzer Kampf</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/07_knockout400x240px.jpg" title="Knockout" alt="Knockout">
+				<p>
+				Du haust ihm frontal ins Gesicht. In dem Moment trifft dich etwas an der Schläfe.
+				<p>Dir wird schwindelig, du fällst zu Boden.</p>
+				<br />
+				<a class="ui-btn ui-btn-inline ui-corner-all ui-btn-icon-left ui-icon-star" data-transition="flip" href="#polizei2">Sterne sehen</a>
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+
+		<div data-role="page" id="polizei">
+		
+			<div data-role="header">
+				<h1>Hilfe naht</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/08_polizei400x267px.jpg" title="Polizeiwagen" alt="Polizeiwagen">
+				<p>
+				Blaulicht.
+				<p>Ein Polizeiwagen hält vor der Bar.</p>
+				<p>Die Beamten kommen zu dir. Sie loben deinen <strong>mutigen Einsatz.</strong> Nur dank deiner <strong>großen Zivilcourage</strong> konnte verhindert werden, dass es Verletzte gab.
+				<p>Der Täter wird festgenommen. Es gibt Zeugen, die können bestätigen, wie böse der Mann war und somit wird Anklage gegen ihn erhoben.
+				<br />
+				<p><strong>Bravo, du hast das Spiel gemeistert</strong> und kannst jetzt zufrieden nach Hause fahren!
+				<p><img class="ui-corner-all" width="150px" src="img/08a_glueckwunsch.jpg" title="Glückwunsch" alt="Glückwunsch">
+
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+				<div data-role="page" id="polizei2">
+		
+			<div data-role="header">
+				<h1>Game over</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<img class="ui-corner-all" width="400px" src="img/09_festnahme400x260px.jpg" title="Festnahme" alt="Festnahme">
+				<p>
+				Blaulicht.
+				<p>Ein Polizeiwagen hält vor der Bar.</p>
+				<p>Als du wieder zu dir kommst, nehmen die Beamten dich fest.
+				<p>Auf dich und den anderen Schläger kommt ein <strong>Strafverfahren</strong> zu. Warum hast du nicht <strong>vernünftig und gewaltfrei</strong> gehandelt?
+				<p>Es gibt viele Wege Streit zu schlichten, aber selbst Gewalt anzuwenden ist <strong>keine Lösung.</strong>
+				<br />
+				<p>Game over.
+				<p><img class="ui-corner-all" width="300px" src="img/09a_gameover400x264.jpg" title="Game over" alt="Game over">
+
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+				<div data-role="page" id="impressum">
+		
+			<div data-role="header">
+				<h1>Impressum</h1>
+			</div>
+			
+			<div data-role="content">
+				
+				<h3>Impressum</h3>
+				<p>Verantwortlich für den Inhalt:
+				<p>Matthias Schaar</p>
+				<p>Gießener Str. 23
+				<p>50679 Köln
+				<p>Uni Köln Matrikel Nr.: 5838304</p>
+				<br />
+				<p>
+				<h3>Bildnachweise</h3>
+				<p>Bild 1: M.E. / pixelio.de
+				<p>Bild 2: Erich Westendarp / pixelio.de
+				<p>Bild 2b: Jürgen Hüsmert / pixelio.de
+				<p>Bild 3: Uschi Dreiucker / pixelio.de
+				<p>Bild 4: Peter Franz / pixelio.de
+				<p>Bild 5: Joschka Knoblauch / pixelio.de
+				<p>Bild 6: Robert Müller / pixelio.de
+				<p>Bild 7: Uschi Dreiucker / pixelio.de
+				<p>Bild 8: NicoLeHe / pixelio.de
+				<p>Bild 8a: Rainer Sturm / pixelio.de
+				<p>Bild 9: Paul-Georg Meister / pixelio.de
+				<p>Bild 9a: Uwe Bergeest / pixelio.de
+
+			</div>
+		
+			<div data-role="footer">
+				<h4>&copy; Matthias Schaar | <a data-transition="slideup" href="#impressum">Impressum</a></h4>
+			</div>
+		
+		</div>
+		
+	</body>
+
+</html> 
+
+
