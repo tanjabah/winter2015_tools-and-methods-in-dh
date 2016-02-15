@@ -1,0 +1,46 @@
+html body {
+color: #e0ebeb;
+
+}
+
+
+
+div {
+background-color: #006666;
+}
+div h1 {
+font-variant: small-caps;
+color: #fff;
+}
+
+div h4 {
+color: #fff;
+font-variant: small-caps;
+
+}
+
+div p {
+color: #fff;
+
+}
+
+.ui-page .ui-header {
+    background:  #1a0d00; !important;
+}
+
+.ui-footer .ui-title {
+background:  #1a0d00; !important;
+
+}
+.ui-footer .ui-title {
+     margin: auto;
+}
+
+div img {
+height: 350x;
+width: 600px;
+margin-right: 300px;
+margin-left: 300px;
+
+}
+
